@@ -17,8 +17,10 @@
       <ul>
         <li><a href="#how-it-works">How it works</a></li>
         <li><a href="#benefits">Benefits</a></li>
-        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#planner">Planner</a></li>
         <li><a href="#join">Join</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="community.html">Community</a></li>
       </ul>
     </nav>
 
@@ -32,7 +34,7 @@
 
       <div class="cta-group">
         <a class="btn primary" href="#join">Book a spot</a>
-        <a class="btn ghost" href="#how-it-works">See details</a>
+        <a class="btn ghost" href="#planner">Plan your visit</a>
       </div>
     </div>
   </header>
@@ -68,6 +70,39 @@
         <li>✅ Inclusive for single parents, couples, carers, and friends</li>
         <li>✅ Affordable sessions with sibling discounts</li>
       </ul>
+    </section>
+
+    <section class="panel" id="planner" aria-labelledby="planner-title">
+      <h2 id="planner-title">Interactive visit planner</h2>
+      <p class="schedule-sub">Estimate your session price and pick the vibe you want for your afternoon.</p>
+
+      <form class="planner-grid" id="planner-form">
+        <div>
+          <label for="plan-kids">Number of children</label>
+          <input id="plan-kids" type="number" min="1" max="5" value="1" />
+        </div>
+
+        <div>
+          <label for="plan-hours">Hours of care</label>
+          <input id="plan-hours" type="range" min="2" max="4" step="0.5" value="2.5" />
+          <p class="hint" id="hours-output">2.5 hours</p>
+        </div>
+
+        <div>
+          <label for="plan-vibe">Preferred adult space</label>
+          <select id="plan-vibe">
+            <option value="social">Social table</option>
+            <option value="quiet">Quiet work zone</option>
+            <option value="coaching">Parent support mini-circle</option>
+          </select>
+        </div>
+      </form>
+
+      <div class="price-box" aria-live="polite">
+        <p class="price-label">Estimated total</p>
+        <p class="price-value" id="price-output">$32.50</p>
+        <p class="hint" id="vibe-output">You'll probably enjoy: Social table</p>
+      </div>
     </section>
 
     <section class="panel" id="schedule">
@@ -108,19 +143,28 @@
       </table>
     </section>
 
+    <section class="panel alt" id="testimonials">
+      <h2>Parent voices</h2>
+      <div class="quote-box" aria-live="polite">
+        <p id="quote-text">“I finally finished a hot coffee while my toddler had the best afternoon.”</p>
+        <p id="quote-author">— Sam, parent of 1</p>
+      </div>
+      <button class="btn ghost" id="new-quote" type="button">Show another story</button>
+    </section>
+
     <section class="panel cta-panel" id="join">
       <h2>Less stress. More coffee. More connection.</h2>
       <p>Reserve your place for next week and discover a better afternoon routine for your family.</p>
 
-      <form class="join-form">
+      <form class="join-form" id="join-form">
         <label for="name">Name</label>
-        <input id="name" name="name" type="text" autocomplete="name" />
+        <input id="name" name="name" type="text" autocomplete="name" required />
 
         <label for="email">Email</label>
-        <input id="email" name="email" type="email" autocomplete="email" />
+        <input id="email" name="email" type="email" autocomplete="email" required />
 
         <label for="kids">How many kids (under 8)?</label>
-        <select id="kids" name="kids">
+        <select id="kids" name="kids" required>
           <option value="" selected>Select</option>
           <option>1</option>
           <option>2</option>
@@ -129,11 +173,14 @@
 
         <button class="btn primary" type="submit">Request booking</button>
       </form>
+      <p class="success-message" id="form-message" aria-live="polite"></p>
     </section>
   </main>
 
   <footer>
     Little Beans Café Club • Built for happier afternoons.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
