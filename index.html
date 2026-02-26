@@ -1,144 +1,139 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/index.html b/index.html
-new file mode 100644
-index 0000000000000000000000000000000000000000..db6848e65862538791d68c556f12ec4a866183ea
---- /dev/null
-+++ b/index.html
-@@ -0,0 +1,134 @@
-+<!DOCTYPE html>
-+<html lang="en">
-+<head>
-+  <meta charset="UTF-8" />
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-+  <title>Little Beans Café Club</title>
-+  <link rel="preconnect" href="https://fonts.googleapis.com">
-+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-+  <link rel="stylesheet" href="styles.css" />
-+</head>
-+<body>
-+  <header class="hero" id="top">
-+    <nav class="nav" aria-label="Main navigation">
-+      <a class="logo" href="#top">☕ Little Beans</a>
-+      <ul>
-+        <li><a href="#how-it-works">How it works</a></li>
-+        <li><a href="#benefits">Benefits</a></li>
-+        <li><a href="#schedule">Schedule</a></li>
-+        <li><a href="#join">Join</a></li>
-+      </ul>
-+    </nav>
-+
-+    <section class="hero-content">
-+      <p class="eyebrow">A calm afternoon for families</p>
-+      <h1>A welcoming café meetup for parents, carers, and coffee lovers.</h1>
-+      <p>
-+        Bring kids under 8 for a safe afternoon daycare session while adults relax,
-+        connect, and enjoy great coffee with less stress.
-+      </p>
-+      <div class="cta-group">
-+        <a class="btn primary" href="#join">Book a spot</a>
-+        <a class="btn ghost" href="#how-it-works">See details</a>
-+      </div>
-+    </section>
-+  </header>
-+
-+  <main>
-+    <section id="how-it-works" class="panel">
-+      <h2>How it works</h2>
-+      <div class="cards">
-+        <article class="card">
-+          <h3>1) Check in together</h3>
-+          <p>Families arrive between 1:30–2:00 PM and meet the childcare team.</p>
-+        </article>
-+        <article class="card">
-+          <h3>2) Kids enjoy play-based care</h3>
-+          <p>Children join age-appropriate activities, stories, and quiet nap corners.</p>
-+        </article>
-+        <article class="card">
-+          <h3>3) Adults recharge</h3>
-+          <p>Parents and other adults can work, chat, or simply enjoy a peaceful coffee break.</p>
-+        </article>
-+      </div>
-+    </section>
-+
-+    <section id="benefits" class="panel alt">
-+      <h2>Why families and communities love it</h2>
-+      <ul class="benefits-list">
-+        <li>✅ Friendly staff trained in early childhood support</li>
-+        <li>✅ Secure sign-in / sign-out for every child</li>
-+        <li>✅ Quiet zone, social tables, and Wi‑Fi for adults</li>
-+        <li>✅ Inclusive for single parents, couples, carers, and friends</li>
-+        <li>✅ Affordable sessions with sibling discounts</li>
-+      </ul>
-+    </section>
-+
-+    <section id="schedule" class="panel">
-+      <h2>Afternoon session</h2>
-+      <p class="schedule-sub">Designed for children aged 2–8 years.</p>
-+      <table>
-+        <caption>Typical weekday plan</caption>
-+        <thead>
-+          <tr>
-+            <th scope="col">Time</th>
-+            <th scope="col">Kids' activities</th>
-+            <th scope="col">Adults' space</th>
-+          </tr>
-+        </thead>
-+        <tbody>
-+          <tr>
-+            <td>1:30 PM</td>
-+            <td>Arrival and welcome play</td>
-+            <td>Check-in and first coffee</td>
-+          </tr>
-+          <tr>
-+            <td>2:00 PM</td>
-+            <td>Creative crafts and group games</td>
-+            <td>Parent meetup circle / free seating</td>
-+          </tr>
-+          <tr>
-+            <td>3:00 PM</td>
-+            <td>Story time and snack break</td>
-+            <td>Focus time or social catch-up</td>
-+          </tr>
-+          <tr>
-+            <td>4:15 PM</td>
-+            <td>Calm activities and handover prep</td>
-+            <td>Pickup and take-home tips</td>
-+          </tr>
-+        </tbody>
-+      </table>
-+    </section>
-+
-+    <section id="join" class="panel cta-panel">
-+      <h2>Less stress. More coffee. More connection.</h2>
-+      <p>
-+        Reserve your place for next week and discover a better afternoon routine for your family.
-+      </p>
-+      <form class="join-form" action="#" method="post">
-+        <label for="name">Name</label>
-+        <input id="name" name="name" type="text" required>
-+
-+        <label for="email">Email</label>
-+        <input id="email" name="email" type="email" required>
-+
-+        <label for="kids">How many kids (under 8)?</label>
-+        <select id="kids" name="kids" required>
-+          <option value="" selected disabled>Select</option>
-+          <option value="1">1</option>
-+          <option value="2">2</option>
-+          <option value="3+">3 or more</option>
-+        </select>
-+
-+        <button type="submit" class="btn primary">Request booking</button>
-+      </form>
-+    </section>
-+  </main>
-+
-+  <footer>
-+    <p>Little Beans Café Club • Built for happier afternoons.</p>
-+  </footer>
-+</body>
-+</html>
- 
-EOF
-)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Beans Café Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="#top">☕ Little Beans</a>
+      <ul>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <span class="eyebrow">A calm afternoon for families</span>
+      <h1>A welcoming café meetup for parents, carers, and coffee lovers.</h1>
+      <p>
+        Bring kids under 8 for a safe afternoon daycare session while adults relax,
+        connect, and enjoy great coffee with less stress.
+      </p>
+
+      <div class="cta-group">
+        <a class="btn primary" href="#join">Book a spot</a>
+        <a class="btn ghost" href="#how-it-works">See details</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" id="how-it-works">
+      <h2>How it works</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>1) Check in together</h3>
+          <p>Families arrive between 1:30–2:00 PM and meet the childcare team.</p>
+        </div>
+
+        <div class="card">
+          <h3>2) Kids enjoy play-based care</h3>
+          <p>Children join age-appropriate activities, stories, and quiet nap corners.</p>
+        </div>
+
+        <div class="card">
+          <h3>3) Adults recharge</h3>
+          <p>Parents and other adults can work, chat, or simply enjoy a peaceful coffee break.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel alt" id="benefits">
+      <h2>Why families and communities love it</h2>
+      <ul class="benefits-list">
+        <li>✅ Friendly staff trained in early childhood support</li>
+        <li>✅ Secure sign-in / sign-out for every child</li>
+        <li>✅ Quiet zone, social tables, and Wi-Fi for adults</li>
+        <li>✅ Inclusive for single parents, couples, carers, and friends</li>
+        <li>✅ Affordable sessions with sibling discounts</li>
+      </ul>
+    </section>
+
+    <section class="panel" id="schedule">
+      <h2>Afternoon session</h2>
+      <p class="schedule-sub">Designed for children aged 2–8 years.</p>
+
+      <table>
+        <caption>Typical weekday plan</caption>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Kids’ activities</th>
+            <th>Adults’ space</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1:30 PM</td>
+            <td>Arrival and welcome play</td>
+            <td>Check-in and first coffee</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Creative crafts and group games</td>
+            <td>Parent meetup circle / free seating</td>
+          </tr>
+          <tr>
+            <td>3:00 PM</td>
+            <td>Story time and snack break</td>
+            <td>Focus time or social catch-up</td>
+          </tr>
+          <tr>
+            <td>4:15 PM</td>
+            <td>Calm activities and handover prep</td>
+            <td>Pickup and take-home tips</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel cta-panel" id="join">
+      <h2>Less stress. More coffee. More connection.</h2>
+      <p>Reserve your place for next week and discover a better afternoon routine for your family.</p>
+
+      <form class="join-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" />
+
+        <label for="kids">How many kids (under 8)?</label>
+        <select id="kids" name="kids">
+          <option value="" selected>Select</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3 or more</option>
+        </select>
+
+        <button class="btn primary" type="submit">Request booking</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Little Beans Café Club • Built for happier afternoons.
+  </footer>
+</body>
+</html>
