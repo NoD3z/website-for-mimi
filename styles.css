@@ -1,0 +1,223 @@
+:root {
+  --bg: #fff9f3;
+  --surface: #ffffff;
+  --text: #2e241e;
+  --muted: #6d5a50;
+  --brand: #b6632a;
+  --brand-strong: #984a1a;
+  --accent: #f6e8d8;
+  --radius: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #fff6ed 0%, #fffdfb 45%, #ffffff 100%);
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 1.25rem clamp(1rem, 3vw, 3rem) 3rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--brand-strong);
+  font-size: 1.2rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-content {
+  margin-top: 2.2rem;
+  max-width: 720px;
+}
+
+.eyebrow {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--brand-strong);
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.1;
+  margin: 0 0 0.8rem;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin-top: 0;
+}
+
+.cta-group {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.primary {
+  background: var(--brand);
+  color: white;
+}
+
+.primary:hover,
+.primary:focus-visible {
+  background: var(--brand-strong);
+}
+
+.ghost {
+  background: #fff;
+  color: var(--brand-strong);
+  border: 2px solid var(--brand);
+}
+
+main {
+  padding: 0 clamp(1rem, 3vw, 3rem) 2.5rem;
+}
+
+.panel {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(20, 17, 13, 0.07);
+  padding: clamp(1rem, 2.5vw, 2rem);
+  margin-bottom: 1.2rem;
+}
+
+.alt {
+  background: #fff4e8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #f1dfcb;
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.benefits-list {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.benefits-list li {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+caption {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f0e7dd;
+  text-align: left;
+}
+
+th {
+  background: #fff6ee;
+}
+
+.schedule-sub {
+  color: var(--muted);
+  margin-top: -0.3rem;
+}
+
+.cta-panel {
+  background: #2e241e;
+  color: #fff;
+}
+
+.join-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55rem;
+  max-width: 440px;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+select {
+  padding: 0.66rem;
+  border-radius: 10px;
+  border: 1px solid #d5c7b8;
+  font: inherit;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 1rem;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav ul {
+    justify-content: center;
+  }
+}
