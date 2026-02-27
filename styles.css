@@ -63,6 +63,24 @@ body {
   font-weight: 700;
 }
 
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.lang-switcher label {
+  margin: 0;
+}
+
+.lang-switcher select {
+  width: auto;
+  padding: 0.4rem 0.5rem;
+  border-radius: 999px;
+}
+
 .hero-content {
   margin-top: 2.2rem;
   max-width: 720px;

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "homeTitle": "Little Beans Café Club",
+    "activitiesTitle": "Little Beans | Activities",
+    "communityTitle": "Little Beans | Community"
+  },
+  "common": {
+    "logo": "☕ Little Beans",
+    "mainNavigation": "Main navigation",
+    "languageLabel": "Language",
+    "backToHome": "← Back to home"
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "benefits": "Benefits",
+    "planner": "Planner",
+    "join": "Join",
+    "activities": "Activities",
+    "community": "Community",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "A calm afternoon for families",
+    "title": "A welcoming café meetup for parents, carers, and coffee lovers.",
+    "description": "Bring kids under 8 for a safe afternoon daycare session while adults relax, connect, and enjoy great coffee with less stress.",
+    "bookSpot": "Book a spot",
+    "planVisit": "Plan your visit"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1Title": "1) Check in together",
+    "step1Text": "Families arrive between 1:30–2:00 PM and meet the childcare team.",
+    "step2Title": "2) Kids enjoy play-based care",
+    "step2Text": "Children join age-appropriate activities, stories, and quiet nap corners.",
+    "step3Title": "3) Adults recharge",
+    "step3Text": "Parents and other adults can work, chat, or simply enjoy a peaceful coffee break."
+  },
+  "benefits": {
+    "title": "Why families and communities love it",
+    "item1": "✅ Friendly staff trained in early childhood support",
+    "item2": "✅ Secure sign-in / sign-out for every child",
+    "item3": "✅ Quiet zone, social tables, and Wi-Fi for adults",
+    "item4": "✅ Inclusive for single parents, couples, carers, and friends",
+    "item5": "✅ Affordable sessions with sibling discounts"
+  },
+  "planner": {
+    "title": "Interactive visit planner",
+    "subtitle": "Estimate your session price and pick the vibe you want for your afternoon.",
+    "childrenLabel": "Number of children",
+    "hoursLabel": "Hours of care",
+    "hoursValue": "{hours} hours",
+    "vibeLabel": "Preferred adult space",
+    "vibeSocial": "Social table",
+    "vibeQuiet": "Quiet work zone",
+    "vibeCoaching": "Parent support mini-circle",
+    "estimatedTotal": "Estimated total",
+    "vibeOutput": "You'll probably enjoy: {vibe}"
+  },
+  "schedule": {
+    "title": "Afternoon session",
+    "subtitle": "Designed for children aged 2–8 years.",
+    "caption": "Typical weekday plan",
+    "time": "Time",
+    "kidsActivities": "Kids’ activities",
+    "adultsSpace": "Adults’ space",
+    "row1Time": "1:30 PM",
+    "row1Kids": "Arrival and welcome play",
+    "row1Adults": "Check-in and first coffee",
+    "row2Time": "2:00 PM",
+    "row2Kids": "Creative crafts and group games",
+    "row2Adults": "Parent meetup circle / free seating",
+    "row3Time": "3:00 PM",
+    "row3Kids": "Story time and snack break",
+    "row3Adults": "Focus time or social catch-up",
+    "row4Time": "4:15 PM",
+    "row4Kids": "Calm activities and handover prep",
+    "row4Adults": "Pickup and take-home tips"
+  },
+  "testimonials": {
+    "title": "Parent voices",
+    "button": "Show another story",
+    "items": [
+      {
+        "quote": "“I finally finished a hot coffee while my toddler had the best afternoon.”",
+        "author": "— Sam, parent of 1"
+      },
+      {
+        "quote": "“The quiet zone helped me catch up on work without feeling guilty.”",
+        "author": "— Alex, caregiver of 2"
+      },
+      {
+        "quote": "“My daughter asked to come back before we even got home.”",
+        "author": "— Priya, parent of 1"
+      }
+    ]
+  },
+  "join": {
+    "title": "Less stress. More coffee. More connection.",
+    "description": "Reserve your place for next week and discover a better afternoon routine for your family.",
+    "name": "Name",
+    "email": "Email",
+    "kids": "How many kids (under 8)?",
+    "select": "Select",
+    "threeOrMore": "3 or more",
+    "requestBooking": "Request booking",
+    "successWithName": "Thanks {name}! We will email you available slots in the next 24 hours.",
+    "successGeneric": "Thanks! We will email you available slots in the next 24 hours."
+  },
+  "footer": {
+    "home": "Little Beans Café Club • Built for happier afternoons."
+  },
+  "activities": {
+    "heroEyebrow": "Play with purpose",
+    "heroTitle": "Daily activity menu for ages 2–8",
+    "heroDescription": "Every session blends movement, creativity, and calm-down moments so every child feels comfortable.",
+    "zonesTitle": "Today's activity zones",
+    "craftTitle": "🎨 Craft Corner",
+    "craftText": "Simple sensory art projects with washable materials and guided support.",
+    "storyTitle": "📚 Story Nest",
+    "storyText": "Interactive read-aloud sessions with puppets and imagination prompts.",
+    "buildersTitle": "🧩 Tiny Builders",
+    "buildersText": "Problem-solving games, blocks, and collaborative mini challenges.",
+    "helpTitle": "Need help choosing?",
+    "helpText": "Our staff will help your child settle in and choose activities that match their mood and energy.",
+    "reserve": "Reserve a session"
+  },
+  "community": {
+    "heroEyebrow": "You are not parenting alone",
+    "heroTitle": "Community board & events",
+    "heroDescription": "See what’s coming up and connect with other local families in a warm, welcoming setting.",
+    "eventsTitle": "Upcoming mini events",
+    "date": "Date",
+    "event": "Event",
+    "helps": "Who it helps",
+    "row1Date": "Tue",
+    "row1Event": "New Parent Coffee Circle",
+    "row1Helps": "Parents with children under 3",
+    "row2Date": "Thu",
+    "row2Event": "Calm After School Session",
+    "row2Helps": "Families balancing work and school pickup",
+    "row3Date": "Fri",
+    "row3Event": "Caregiver Support Meetup",
+    "row3Helps": "Grandparents and carers",
+    "quickLinks": "Quick links",
+    "tryPlanner": "Try visit planner",
+    "bookNow": "Book now"
+  }
+}
