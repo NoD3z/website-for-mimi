@@ -1,8 +1,19 @@
 {
   "meta": {
-    "homeTitle": "Little Beans Café Club",
+    "homeTitle": "Little Beans Café Club | Home",
     "activitiesTitle": "Little Beans | Attività",
-    "communityTitle": "Little Beans | Community"
+    "communityTitle": "Little Beans | Community",
+    "homeDescription": "Benvenuti al Little Beans Café Club: pomeriggi sereni per famiglie con supporto bambini e tempo di qualità per gli adulti.",
+    "howTitle": "Come funziona | Little Beans",
+    "howDescription": "Scopri passo dopo passo come si svolge un pomeriggio Little Beans.",
+    "benefitsTitle": "Vantaggi | Little Beans",
+    "benefitsDescription": "Perché le famiglie scelgono Little Beans: sicurezza, accoglienza e inclusione.",
+    "pricingTitle": "Prezzi | Little Beans",
+    "pricingDescription": "Prezzi chiari con planner interattivo per stimare il costo della sessione.",
+    "faqTitle": "FAQ | Little Beans",
+    "faqDescription": "Risposte rapide su età, sicurezza, prenotazione e preparazione.",
+    "contactTitle": "Contatti | Little Beans",
+    "contactDescription": "Contatta Little Beans e richiedi la fascia oraria preferita."
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -17,7 +28,11 @@
     "join": "Iscriviti",
     "activities": "Attività",
     "community": "Community",
-    "book": "Prenota"
+    "book": "Prenota",
+    "home": "Home",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "contact": "Contatti"
   },
   "hero": {
     "eyebrow": "Un pomeriggio sereno per le famiglie",
@@ -41,7 +56,10 @@
     "item2": "✅ Accesso e uscita sicuri per ogni bambino",
     "item3": "✅ Zona silenziosa, tavoli sociali e Wi-Fi per adulti",
     "item4": "✅ Inclusivo per genitori single, coppie, caregiver e amici",
-    "item5": "✅ Sessioni accessibili con sconto fratelli"
+    "item5": "✅ Sessioni accessibili con sconto fratelli",
+    "eyebrow": "Benessere per tutti",
+    "pageTitle": "Perché famiglie e community ci scelgono",
+    "pageText": "Ogni dettaglio è pensato per pomeriggi più semplici e sicuri."
   },
   "planner": {
     "title": "Planner interattivo della visita",
@@ -107,7 +125,12 @@
     "successGeneric": "Grazie! Ti invieremo via email gli slot disponibili nelle prossime 24 ore."
   },
   "footer": {
-    "home": "Little Beans Café Club • Creato per pomeriggi più felici."
+    "home": "Little Beans Café Club • Creato per pomeriggi più felici.",
+    "brandTitle": "Little Beans Café Club",
+    "tagline": "Creato per pomeriggi più sereni con i bambini.",
+    "quickLinks": "Link rapidi",
+    "social": "Social",
+    "socialPlaceholder": "Instagram e Facebook in arrivo."
   },
   "activities": {
     "heroEyebrow": "Giocare con uno scopo",
@@ -144,5 +167,69 @@
     "quickLinks": "Link rapidi",
     "tryPlanner": "Prova il planner visita",
     "bookNow": "Prenota ora"
+  },
+  "home": {
+    "heroEyebrow": "Un pomeriggio sereno per le famiglie",
+    "heroTitle": "Meno caos. Più connessione. Un pomeriggio in caffetteria adatto a tutti.",
+    "heroText": "Little Beans unisce cura attenta per bimbi sotto gli 8 anni e uno spazio accogliente per genitori e caregiver.",
+    "primaryCta": "Richiedi un posto",
+    "secondaryCta": "Scopri come funziona",
+    "welcomeTitle": "Felici di averti qui 👋",
+    "welcomeText": "Che tu voglia rilassarti, lavorare con calma o conoscere altre famiglie, rendiamo il pomeriggio semplice e sicuro.",
+    "previewTitle": "Cosa ottieni con noi",
+    "previewSubtitle": "Panoramica rapida: apri ogni pagina per i dettagli.",
+    "previewHowTitle": "Come funziona",
+    "previewHowText": "Dal check-in al ritiro: passaggi chiari e comunicazione gentile.",
+    "previewHowLink": "Vai al flusso",
+    "previewBenefitsTitle": "Vantaggi",
+    "previewBenefitsText": "Perché famiglie e bambini si sentono accolti da Little Beans.",
+    "previewBenefitsLink": "Vedi vantaggi",
+    "previewPricingTitle": "Prezzi e planner",
+    "previewPricingText": "Stima il costo in pochi secondi e scegli la formula più adatta.",
+    "previewPricingLink": "Vedi prezzi"
+  },
+  "how": {
+    "eyebrow": "Flusso chiaro, famiglie più serene",
+    "title": "Come funziona il tuo pomeriggio Little Beans",
+    "subtitle": "Semplice, trasparente e umano.",
+    "scheduleTitle": "Programma tipico",
+    "cta": "Richiedi una sessione",
+    "step1Title": "1) Check-in insieme",
+    "step1Text": "Le famiglie arrivano tra le 13:30 e le 14:00 e incontrano il team educativo.",
+    "step2Title": "2) I bimbi giocano in sicurezza",
+    "step2Text": "I bambini partecipano ad attività adatte all'età, storie e angoli riposo tranquilli.",
+    "step3Title": "3) Gli adulti si ricaricano",
+    "step3Text": "Genitori e altri adulti possono lavorare, chiacchierare o semplicemente godersi una pausa caffè."
+  },
+  "pricing": {
+    "eyebrow": "Chiaro e family-friendly",
+    "title": "Prezzi e planner interattivo",
+    "subtitle": "Stima online la sessione e personalizzala per la tua famiglia.",
+    "noteTitle": "Nota sconti",
+    "noteText": "Gli sconti fratelli sono applicati automaticamente. Chiedici le opzioni mensili.",
+    "cta": "Richiedi consulenza"
+  },
+  "faq": {
+    "eyebrow": "Domande? Volentieri.",
+    "title": "Domande frequenti",
+    "subtitle": "Risposte rapide su routine, sicurezza e prenotazioni.",
+    "q1": "Per quale età è pensato il servizio?",
+    "a1": "Le sessioni sono pensate per bambini da 2 a 8 anni.",
+    "q2": "Come funziona la sicurezza in entrata e uscita?",
+    "a2": "Ogni bambino ha check-in e check-out sicuri. Il ritiro è consentito solo ad adulti autorizzati.",
+    "q3": "Posso prenotare all’ultimo minuto?",
+    "a3": "Sì, se ci sono posti. Per routine fisse consigliamo di prenotare prima.",
+    "q4": "Cosa deve portare mio figlio?",
+    "a4": "Se serve, porta cambio, borraccia e note importanti (allergie, sonno).",
+    "moreTitle": "Hai ancora una domanda?",
+    "moreText": "Scrivici: rispondiamo in modo rapido e cordiale.",
+    "cta": "Apri modulo contatti"
+  },
+  "contact": {
+    "eyebrow": "Non vediamo l’ora di conoscervi",
+    "title": "Contatti e richiesta prenotazione",
+    "subtitle": "Invia la tua richiesta: rispondiamo di solito entro 24 ore.",
+    "namePlaceholder": "Il tuo nome",
+    "emailPlaceholder": "nome@email.it"
   }
 }

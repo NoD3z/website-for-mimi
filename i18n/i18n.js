@@ -34,50 +34,19 @@
     return null;
   }
 
-  function deepMerge(target, source) {
-    Object.entries(source).forEach(([key, value]) => {
-      if (value && typeof value === 'object' && !Array.isArray(value)) {
-        if (!target[key] || typeof target[key] !== 'object' || Array.isArray(target[key])) {
-          target[key] = {};
-        }
-        deepMerge(target[key], value);
-        return;
-      }
-
-      target[key] = value;
-    });
-
-    return target;
-  }
-
-  async function loadLanguageFile(path, language) {
-    const response = await fetch(path);
-    if (!response.ok) {
-      throw new Error(`Unable to load translations for "${language}" from ${path}.`);
-    }
-
-    return response.json();
-  }
-
-  async function loadLanguageDictionaries(language) {
+  async function loadLanguageFile(language) {
     if (cache[language]) {
       return cache[language];
     }
 
-    const basePath = `./i18n/translations/${language}.json`;
-    const pagesPath = `./i18n/translations/pages/${language}.json`;
-
-    const base = await loadLanguageFile(basePath, language);
-
-    try {
-      const pages = await loadLanguageFile(pagesPath, language);
-      cache[language] = deepMerge(base, pages);
-    } catch (error) {
-      console.warn(`[i18n] Optional page dictionary missing for "${language}": ${pagesPath}`);
-      cache[language] = base;
+    const response = await fetch(`./i18n/translations/${language}.json`);
+    if (!response.ok) {
+      throw new Error(`Unable to load translations for "${language}".`);
     }
 
-    return cache[language];
+    const data = await response.json();
+    cache[language] = data;
+    return data;
   }
 
   function getNestedValue(dictionary, key) {
@@ -143,10 +112,10 @@
 
       try {
         if (!this.dictionaries[FALLBACK_LANGUAGE] || !Object.keys(this.dictionaries[FALLBACK_LANGUAGE]).length) {
-          this.dictionaries[FALLBACK_LANGUAGE] = await loadLanguageDictionaries(FALLBACK_LANGUAGE);
+          this.dictionaries[FALLBACK_LANGUAGE] = await loadLanguageFile(FALLBACK_LANGUAGE);
         }
 
-        this.dictionaries[resolved] = await loadLanguageDictionaries(resolved);
+        this.dictionaries[resolved] = await loadLanguageFile(resolved);
       } catch (error) {
         console.warn(`[i18n] ${error.message}`);
         this.language = FALLBACK_LANGUAGE;

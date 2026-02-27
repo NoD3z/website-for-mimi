@@ -1,8 +1,19 @@
 {
   "meta": {
-    "homeTitle": "Little Beans Café Club",
+    "homeTitle": "Little Beans Café Club | Home",
     "activitiesTitle": "Little Beans | Activities",
-    "communityTitle": "Little Beans | Community"
+    "communityTitle": "Little Beans | Community",
+    "homeDescription": "Welcome to Little Beans Café Club. Discover calm family afternoons with childcare and coffee time for adults.",
+    "howTitle": "How it works | Little Beans",
+    "howDescription": "See step by step how a Little Beans afternoon works, from check-in to pickup.",
+    "benefitsTitle": "Benefits | Little Beans",
+    "benefitsDescription": "Why families love Little Beans: safe care, friendly staff, calm adult spaces, and inclusive community.",
+    "pricingTitle": "Pricing | Little Beans",
+    "pricingDescription": "Transparent pricing for family-friendly afternoon childcare with an interactive cost planner.",
+    "faqTitle": "FAQ | Little Beans",
+    "faqDescription": "Answers to common questions about age range, safety, booking, and what to bring.",
+    "contactTitle": "Contact | Little Beans",
+    "contactDescription": "Contact Little Beans and request your preferred family session time."
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -17,7 +28,11 @@
     "join": "Join",
     "activities": "Activities",
     "community": "Community",
-    "book": "Book"
+    "book": "Book",
+    "home": "Home",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "hero": {
     "eyebrow": "A calm afternoon for families",
@@ -41,7 +56,10 @@
     "item2": "✅ Secure sign-in / sign-out for every child",
     "item3": "✅ Quiet zone, social tables, and Wi-Fi for adults",
     "item4": "✅ Inclusive for single parents, couples, carers, and friends",
-    "item5": "✅ Affordable sessions with sibling discounts"
+    "item5": "✅ Affordable sessions with sibling discounts",
+    "eyebrow": "Comfort for everyone",
+    "pageTitle": "Why families and communities love us",
+    "pageText": "Every detail is designed to make afternoons easier, safer, and more welcoming."
   },
   "planner": {
     "title": "Interactive visit planner",
@@ -107,7 +125,12 @@
     "successGeneric": "Thanks! We will email you available slots in the next 24 hours."
   },
   "footer": {
-    "home": "Little Beans Café Club • Built for happier afternoons."
+    "home": "Little Beans Café Club • Built for happier afternoons.",
+    "brandTitle": "Little Beans Café Club",
+    "tagline": "Built for happier afternoons with kids.",
+    "quickLinks": "Quick links",
+    "social": "Social",
+    "socialPlaceholder": "Instagram & Facebook coming soon."
   },
   "activities": {
     "heroEyebrow": "Play with purpose",
@@ -144,5 +167,69 @@
     "quickLinks": "Quick links",
     "tryPlanner": "Try visit planner",
     "bookNow": "Book now"
+  },
+  "home": {
+    "heroEyebrow": "A calm afternoon for families",
+    "heroTitle": "Less rush. More connection. A café afternoon that works for everyone.",
+    "heroText": "Little Beans combines warm childcare for kids under 8 with a welcoming space for parents, carers, and coffee lovers.",
+    "primaryCta": "Request a spot",
+    "secondaryCta": "See how it works",
+    "welcomeTitle": "So glad you are here 👋",
+    "welcomeText": "Whether you want to take a breath, finish a task, or meet other families, we make afternoons feel safe and easy.",
+    "previewTitle": "What you get with us",
+    "previewSubtitle": "A quick overview — open each page for full details.",
+    "previewHowTitle": "How it works",
+    "previewHowText": "From check-in to pickup: clear steps, calm care, and friendly communication.",
+    "previewHowLink": "Go to flow page",
+    "previewBenefitsTitle": "Benefits",
+    "previewBenefitsText": "Why families, carers, and kids feel welcome at Little Beans.",
+    "previewBenefitsLink": "See benefits",
+    "previewPricingTitle": "Pricing & planner",
+    "previewPricingText": "Estimate your session cost in seconds and choose the right setup.",
+    "previewPricingLink": "See pricing"
+  },
+  "how": {
+    "eyebrow": "Clear flow, calmer families",
+    "title": "How your Little Beans afternoon works",
+    "subtitle": "Simple, transparent, and kind — so children and adults both feel comfortable.",
+    "scheduleTitle": "Typical afternoon plan",
+    "cta": "Request a session",
+    "step1Title": "1) Check in together",
+    "step1Text": "Families arrive between 1:30–2:00 PM and meet the childcare team.",
+    "step2Title": "2) Kids enjoy play-based care",
+    "step2Text": "Children join age-appropriate activities, stories, and quiet nap corners.",
+    "step3Title": "3) Adults recharge",
+    "step3Text": "Parents and other adults can work, chat, or simply enjoy a peaceful coffee break."
+  },
+  "pricing": {
+    "eyebrow": "Transparent and family-friendly",
+    "title": "Pricing and interactive visit planner",
+    "subtitle": "Estimate your session online and adapt it to your family.",
+    "noteTitle": "Discount note",
+    "noteText": "Sibling discounts are applied automatically. Ask us about monthly options for regular visits.",
+    "cta": "Ask for guidance"
+  },
+  "faq": {
+    "eyebrow": "Questions? We are happy to help.",
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers about routines, safety, and booking.",
+    "q1": "What age range is this for?",
+    "a1": "Our sessions are designed for children aged 2 to 8.",
+    "q2": "How does check-in and pickup safety work?",
+    "a2": "Each child has secure sign-in and sign-out. Only authorized adults can pick up.",
+    "q3": "Can I book last minute?",
+    "a3": "Yes, if places are available. For regular routines, we recommend booking ahead.",
+    "q4": "What should my child bring?",
+    "a4": "If needed, please bring spare clothes, a water bottle, and important notes (allergies, sleep routine).",
+    "moreTitle": "Still have a question?",
+    "moreText": "Send us a message — we reply quickly and kindly.",
+    "cta": "Open contact form"
+  },
+  "contact": {
+    "eyebrow": "We look forward to meeting you",
+    "title": "Contact & booking request",
+    "subtitle": "Send your request — we usually reply within 24 hours.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "name@email.com"
   }
 }
