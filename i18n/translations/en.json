@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "homeTitle": "Little Beans Café Club | Home",
+    "activitiesTitle": "Little Beans | Activities",
+    "communityTitle": "Little Beans | Community",
+    "homeDescription": "Welcome to Little Beans Café Club. Discover calm family afternoons with childcare and coffee time for adults.",
+    "howTitle": "How it works | Little Beans",
+    "howDescription": "See step by step how a Little Beans afternoon works, from check-in to pickup.",
+    "benefitsTitle": "Benefits | Little Beans",
+    "benefitsDescription": "Why families love Little Beans: safe care, friendly staff, calm adult spaces, and inclusive community.",
+    "pricingTitle": "Pricing | Little Beans",
+    "pricingDescription": "Transparent pricing for family-friendly afternoon childcare with an interactive cost planner.",
+    "faqTitle": "FAQ | Little Beans",
+    "faqDescription": "Answers to common questions about age range, safety, booking, and what to bring.",
+    "contactTitle": "Contact | Little Beans",
+    "contactDescription": "Contact Little Beans and request your preferred family session time."
+  },
+  "common": {
+    "logo": "☕ Little Beans",
+    "mainNavigation": "Main navigation",
+    "languageLabel": "Language",
+    "backToHome": "← Back to home"
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "benefits": "Benefits",
+    "planner": "Planner",
+    "join": "Join",
+    "activities": "Activities",
+    "community": "Community",
+    "book": "Book",
+    "home": "Home",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "A calm afternoon for families",
+    "title": "A welcoming café meetup for parents, carers, and coffee lovers.",
+    "description": "Bring kids under 8 for a safe afternoon daycare session while adults relax, connect, and enjoy great coffee with less stress.",
+    "bookSpot": "Book a spot",
+    "planVisit": "Plan your visit"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1Title": "1) Check in together",
+    "step1Text": "Families arrive between 1:30–2:00 PM and meet the childcare team.",
+    "step2Title": "2) Kids enjoy play-based care",
+    "step2Text": "Children join age-appropriate activities, stories, and quiet nap corners.",
+    "step3Title": "3) Adults recharge",
+    "step3Text": "Parents and other adults can work, chat, or simply enjoy a peaceful coffee break."
+  },
+  "benefits": {
+    "title": "Why families and communities love it",
+    "item1": "✅ Friendly staff trained in early childhood support",
+    "item2": "✅ Secure sign-in / sign-out for every child",
+    "item3": "✅ Quiet zone, social tables, and Wi-Fi for adults",
+    "item4": "✅ Inclusive for single parents, couples, carers, and friends",
+    "item5": "✅ Affordable sessions with sibling discounts",
+    "eyebrow": "Comfort for everyone",
+    "pageTitle": "Why families and communities love us",
+    "pageText": "Every detail is designed to make afternoons easier, safer, and more welcoming."
+  },
+  "planner": {
+    "title": "Interactive visit planner",
+    "subtitle": "Estimate your session price and pick the vibe you want for your afternoon.",
+    "childrenLabel": "Number of children",
+    "hoursLabel": "Hours of care",
+    "hoursValue": "{hours} hours",
+    "vibeLabel": "Preferred adult space",
+    "vibeSocial": "Social table",
+    "vibeQuiet": "Quiet work zone",
+    "vibeCoaching": "Parent support mini-circle",
+    "estimatedTotal": "Estimated total",
+    "vibeOutput": "You'll probably enjoy: {vibe}"
+  },
+  "schedule": {
+    "title": "Afternoon session",
+    "subtitle": "Designed for children aged 2–8 years.",
+    "caption": "Typical weekday plan",
+    "time": "Time",
+    "kidsActivities": "Kids’ activities",
+    "adultsSpace": "Adults’ space",
+    "row1Time": "1:30 PM",
+    "row1Kids": "Arrival and welcome play",
+    "row1Adults": "Check-in and first coffee",
+    "row2Time": "2:00 PM",
+    "row2Kids": "Creative crafts and group games",
+    "row2Adults": "Parent meetup circle / free seating",
+    "row3Time": "3:00 PM",
+    "row3Kids": "Story time and snack break",
+    "row3Adults": "Focus time or social catch-up",
+    "row4Time": "4:15 PM",
+    "row4Kids": "Calm activities and handover prep",
+    "row4Adults": "Pickup and take-home tips"
+  },
+  "testimonials": {
+    "title": "Parent voices",
+    "button": "Show another story",
+    "items": [
+      {
+        "quote": "“I finally finished a hot coffee while my toddler had the best afternoon.”",
+        "author": "— Sam, parent of 1"
+      },
+      {
+        "quote": "“The quiet zone helped me catch up on work without feeling guilty.”",
+        "author": "— Alex, caregiver of 2"
+      },
+      {
+        "quote": "“My daughter asked to come back before we even got home.”",
+        "author": "— Priya, parent of 1"
+      }
+    ]
+  },
+  "join": {
+    "title": "Less stress. More coffee. More connection.",
+    "description": "Reserve your place for next week and discover a better afternoon routine for your family.",
+    "name": "Name",
+    "email": "Email",
+    "kids": "How many kids (under 8)?",
+    "select": "Select",
+    "threeOrMore": "3 or more",
+    "requestBooking": "Request booking",
+    "successWithName": "Thanks {name}! We will email you available slots in the next 24 hours.",
+    "successGeneric": "Thanks! We will email you available slots in the next 24 hours."
+  },
+  "footer": {
+    "home": "Little Beans Café Club • Built for happier afternoons.",
+    "brandTitle": "Little Beans Café Club",
+    "tagline": "Built for happier afternoons with kids.",
+    "quickLinks": "Quick links",
+    "social": "Social",
+    "socialPlaceholder": "Instagram & Facebook coming soon."
+  },
+  "activities": {
+    "heroEyebrow": "Play with purpose",
+    "heroTitle": "Daily activity menu for ages 2–8",
+    "heroDescription": "Every session blends movement, creativity, and calm-down moments so every child feels comfortable.",
+    "zonesTitle": "Today's activity zones",
+    "craftTitle": "🎨 Craft Corner",
+    "craftText": "Simple sensory art projects with washable materials and guided support.",
+    "storyTitle": "📚 Story Nest",
+    "storyText": "Interactive read-aloud sessions with puppets and imagination prompts.",
+    "buildersTitle": "🧩 Tiny Builders",
+    "buildersText": "Problem-solving games, blocks, and collaborative mini challenges.",
+    "helpTitle": "Need help choosing?",
+    "helpText": "Our staff will help your child settle in and choose activities that match their mood and energy.",
+    "reserve": "Reserve a session"
+  },
+  "community": {
+    "heroEyebrow": "You are not parenting alone",
+    "heroTitle": "Community board & events",
+    "heroDescription": "See what’s coming up and connect with other local families in a warm, welcoming setting.",
+    "eventsTitle": "Upcoming mini events",
+    "date": "Date",
+    "event": "Event",
+    "helps": "Who it helps",
+    "row1Date": "Tue",
+    "row1Event": "New Parent Coffee Circle",
+    "row1Helps": "Parents with children under 3",
+    "row2Date": "Thu",
+    "row2Event": "Calm After School Session",
+    "row2Helps": "Families balancing work and school pickup",
+    "row3Date": "Fri",
+    "row3Event": "Caregiver Support Meetup",
+    "row3Helps": "Grandparents and carers",
+    "quickLinks": "Quick links",
+    "tryPlanner": "Try visit planner",
+    "bookNow": "Book now"
+  },
+  "home": {
+    "heroEyebrow": "A calm afternoon for families",
+    "heroTitle": "Less rush. More connection. A café afternoon that works for everyone.",
+    "heroText": "Little Beans combines warm childcare for kids under 8 with a welcoming space for parents, carers, and coffee lovers.",
+    "primaryCta": "Request a spot",
+    "secondaryCta": "See how it works",
+    "welcomeTitle": "So glad you are here 👋",
+    "welcomeText": "Whether you want to take a breath, finish a task, or meet other families, we make afternoons feel safe and easy.",
+    "previewTitle": "What you get with us",
+    "previewSubtitle": "A quick overview — open each page for full details.",
+    "previewHowTitle": "How it works",
+    "previewHowText": "From check-in to pickup: clear steps, calm care, and friendly communication.",
+    "previewHowLink": "Go to flow page",
+    "previewBenefitsTitle": "Benefits",
+    "previewBenefitsText": "Why families, carers, and kids feel welcome at Little Beans.",
+    "previewBenefitsLink": "See benefits",
+    "previewPricingTitle": "Pricing & planner",
+    "previewPricingText": "Estimate your session cost in seconds and choose the right setup.",
+    "previewPricingLink": "See pricing"
+  },
+  "how": {
+    "eyebrow": "Clear flow, calmer families",
+    "title": "How your Little Beans afternoon works",
+    "subtitle": "Simple, transparent, and kind — so children and adults both feel comfortable.",
+    "scheduleTitle": "Typical afternoon plan",
+    "cta": "Request a session",
+    "step1Title": "1) Check in together",
+    "step1Text": "Families arrive between 1:30–2:00 PM and meet the childcare team.",
+    "step2Title": "2) Kids enjoy play-based care",
+    "step2Text": "Children join age-appropriate activities, stories, and quiet nap corners.",
+    "step3Title": "3) Adults recharge",
+    "step3Text": "Parents and other adults can work, chat, or simply enjoy a peaceful coffee break."
+  },
+  "pricing": {
+    "eyebrow": "Transparent and family-friendly",
+    "title": "Pricing and interactive visit planner",
+    "subtitle": "Estimate your session online and adapt it to your family.",
+    "noteTitle": "Discount note",
+    "noteText": "Sibling discounts are applied automatically. Ask us about monthly options for regular visits.",
+    "cta": "Ask for guidance"
+  },
+  "faq": {
+    "eyebrow": "Questions? We are happy to help.",
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers about routines, safety, and booking.",
+    "q1": "What age range is this for?",
+    "a1": "Our sessions are designed for children aged 2 to 8.",
+    "q2": "How does check-in and pickup safety work?",
+    "a2": "Each child has secure sign-in and sign-out. Only authorized adults can pick up.",
+    "q3": "Can I book last minute?",
+    "a3": "Yes, if places are available. For regular routines, we recommend booking ahead.",
+    "q4": "What should my child bring?",
+    "a4": "If needed, please bring spare clothes, a water bottle, and important notes (allergies, sleep routine).",
+    "moreTitle": "Still have a question?",
+    "moreText": "Send us a message — we reply quickly and kindly.",
+    "cta": "Open contact form"
+  },
+  "contact": {
+    "eyebrow": "We look forward to meeting you",
+    "title": "Contact & booking request",
+    "subtitle": "Send your request — we usually reply within 24 hours.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "name@email.com"
+  },
+  "pageInfo": {
+    "home": {
+      "title": "What you will find on this page",
+      "text": "This homepage gives you a quick overview of Little Beans, highlights key benefits, and guides you to flow, pricing, FAQ, and contact pages."
+    },
+    "how": {
+      "title": "What this page explains",
+      "text": "This page walks you through each session step by step, including the daily structure and what both children and adults can expect."
+    },
+    "benefits": {
+      "title": "What this page explains",
+      "text": "This page summarizes the biggest benefits for families: safety, thoughtful care, calm adult spaces, and real community support."
+    },
+    "pricing": {
+      "title": "What this page explains",
+      "text": "Use this page to estimate costs, compare options, and understand which session setup best matches your family needs."
+    },
+    "faq": {
+      "title": "What this page explains",
+      "text": "This page answers common questions about age range, safety, booking, and preparation in a short and clear format."
+    },
+    "contact": {
+      "title": "What this page explains",
+      "text": "This page is for direct booking requests. Share your details and we will reply with suitable time options."
+    },
+    "activities": {
+      "title": "What this page explains",
+      "text": "Here you can explore current activity zones for children and quickly see which options fit different moods and ages."
+    },
+    "community": {
+      "title": "What this page explains",
+      "text": "This page shows upcoming community events and helps you find the most relevant offerings for your family situation."
+    }
+  }
+}

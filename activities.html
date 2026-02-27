@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Little Beans | Activities</title>
+  <title data-i18n="meta.activitiesTitle">Little Beans | Aktivitäten</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -11,48 +11,65 @@
 </head>
 <body>
   <header class="hero sub-hero">
-    <nav class="nav" aria-label="Main navigation">
-      <a class="logo" href="index.html">☕ Little Beans</a>
+    <nav class="nav" aria-label="Hauptnavigation" data-i18n="common.mainNavigation" data-i18n-attr="aria-label">
+      <a class="logo" href="index.html" data-i18n="common.logo">☕ Little Beans</a>
       <ul>
-        <li><a href="index.html#join">Book</a></li>
-        <li><a href="community.html">Community</a></li>
+        <li><a href="index.html#join" data-i18n="nav.book">Buchen</a></li>
+        <li><a href="community.html" data-i18n="nav.community">Community</a></li>
       </ul>
+      <div class="lang-switcher">
+        <label for="language-switcher" data-i18n="common.languageLabel">Sprache</label>
+        <select id="language-switcher" data-language-switcher>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+        </select>
+      </div>
     </nav>
     <div class="hero-content">
-      <span class="eyebrow">Play with purpose</span>
-      <h1>Daily activity menu for ages 2–8</h1>
-      <p>Every session blends movement, creativity, and calm-down moments so every child feels comfortable.</p>
+      <span class="eyebrow" data-i18n="activities.heroEyebrow">Spielen mit Sinn</span>
+      <h1 data-i18n="activities.heroTitle">Tägliches Aktivitätsprogramm für 2–8 Jahre</h1>
+      <p data-i18n="activities.heroDescription">Jede Session verbindet Bewegung, Kreativität und ruhige Momente, damit sich jedes Kind wohlfühlt.</p>
     </div>
   </header>
 
   <main>
+    <section class="panel page-summary">
+      <h2 data-i18n="pageInfo.activities.title">Was diese Seite erklärt</h2>
+      <p data-i18n="pageInfo.activities.text">Hier finden Sie die aktuellen Aktivitätsbereiche für Kinder und erhalten einen Eindruck, welche Angebote je nach Stimmung und Alter gut passen.</p>
+    </section>
+
     <section class="panel">
-      <h2>Today's activity zones</h2>
+      <h2 data-i18n="activities.zonesTitle">Heutige Aktivitätsbereiche</h2>
       <div class="cards">
         <article class="card">
-          <h3>🎨 Craft Corner</h3>
-          <p>Simple sensory art projects with washable materials and guided support.</p>
+          <h3 data-i18n="activities.craftTitle">🎨 Bastelecke</h3>
+          <p data-i18n="activities.craftText">Einfache sensorische Kunstprojekte mit abwaschbaren Materialien und Begleitung.</p>
         </article>
         <article class="card">
-          <h3>📚 Story Nest</h3>
-          <p>Interactive read-aloud sessions with puppets and imagination prompts.</p>
+          <h3 data-i18n="activities.storyTitle">📚 Geschichten-Nest</h3>
+          <p data-i18n="activities.storyText">Interaktive Vorlesezeiten mit Handpuppen und Fantasieimpulsen.</p>
         </article>
         <article class="card">
-          <h3>🧩 Tiny Builders</h3>
-          <p>Problem-solving games, blocks, and collaborative mini challenges.</p>
+          <h3 data-i18n="activities.buildersTitle">🧩 Kleine Baumeister</h3>
+          <p data-i18n="activities.buildersText">Problemlösespiele, Bausteine und gemeinsame Mini-Challenges.</p>
         </article>
       </div>
     </section>
 
     <section class="panel alt">
-      <h2>Need help choosing?</h2>
-      <p>Our staff will help your child settle in and choose activities that match their mood and energy.</p>
-      <a class="btn primary" href="index.html#join">Reserve a session</a>
+      <h2 data-i18n="activities.helpTitle">Brauchen Sie Hilfe bei der Auswahl?</h2>
+      <p data-i18n="activities.helpText">Unser Team hilft Ihrem Kind beim Ankommen und bei der Wahl passender Aktivitäten nach Stimmung und Energie.</p>
+      <a class="btn primary" href="index.html#join" data-i18n="activities.reserve">Session reservieren</a>
     </section>
   </main>
 
   <footer>
-    <a href="index.html">← Back to home</a>
+    <a href="index.html" data-i18n="common.backToHome">← Zurück zur Startseite</a>
   </footer>
+
+  <script src="i18n/i18n.js"></script>
 </body>
 </html>
