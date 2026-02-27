@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.contactTitle">Kontakt | Little Beans</title>
+  <meta name="description" content="Kontaktieren Sie Little Beans und fragen Sie Ihren Wunschtermin für eine familienfreundliche Nachmittags-Session an." data-i18n="meta.contactDescription" data-i18n-attr="content" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero sub-hero">
+    <nav class="nav" aria-label="Hauptnavigation" data-i18n="common.mainNavigation" data-i18n-attr="aria-label">
+      <a class="logo" href="index.html" data-i18n="common.logo">☕ Little Beans</a>
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+        <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+        <li><a href="benefits.html" data-i18n="nav.benefits">Vorteile</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Preise</a></li>
+        <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+        <li><a class="active" aria-current="page" href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <label for="language-switcher" data-i18n="common.languageLabel">Sprache</label>
+        <select id="language-switcher" data-language-switcher>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+        </select>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <span class="eyebrow" data-i18n="contact.eyebrow">Wir freuen uns auf Sie</span>
+      <h1 data-i18n="contact.title">Kontakt & Buchungsanfrage</h1>
+      <p data-i18n="contact.subtitle">Senden Sie uns Ihre Anfrage – wir melden uns in der Regel innerhalb von 24 Stunden.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel cta-panel">
+      <h2 data-i18n="join.title">Weniger Stress. Mehr Kaffee. Mehr Verbindung.</h2>
+      <p data-i18n="join.description">Reservieren Sie Ihren Platz für nächste Woche und entdecken Sie eine bessere Nachmittagsroutine für Ihre Familie.</p>
+
+      <form class="join-form" id="join-form">
+        <label for="name" data-i18n="join.name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required placeholder="Ihr Name" data-i18n="contact.namePlaceholder" data-i18n-attr="placeholder" />
+
+        <label for="email" data-i18n="join.email">E-Mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@email.de" data-i18n="contact.emailPlaceholder" data-i18n-attr="placeholder" />
+
+        <label for="kids" data-i18n="join.kids">Wie viele Kinder (unter 8)?</label>
+        <select id="kids" name="kids" required>
+          <option value="" selected data-i18n="join.select">Auswählen</option>
+          <option>1</option>
+          <option>2</option>
+          <option data-i18n="join.threeOrMore">3 oder mehr</option>
+        </select>
+
+        <button class="btn primary" type="submit" data-i18n="join.requestBooking">Buchung anfragen</button>
+      </form>
+      <p class="success-message" id="form-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-title" data-i18n="footer.brandTitle">Little Beans Café Club</p>
+        <p data-i18n="footer.tagline">Für entspanntere Nachmittage mit Kindern.</p>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.quickLinks">Schnelllinks</p>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+          <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+          <li><a href="pricing.html" data-i18n="nav.pricing">Preise</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.social">Social</p>
+        <p data-i18n="footer.socialPlaceholder">Instagram & Facebook folgen bald.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n/i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

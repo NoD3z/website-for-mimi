@@ -63,6 +63,14 @@ body {
   font-weight: 700;
 }
 
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
+.nav a.active {
+  color: var(--brand-strong);
+  border-bottom: 2px solid var(--brand);
+}
+
+=======
+main
 .lang-switcher {
   display: inline-flex;
   align-items: center;
@@ -83,7 +91,7 @@ body {
 
 .hero-content {
   margin-top: 2.2rem;
-  max-width: 720px;
+  max-width: 760px;
 }
 
 .eyebrow {
@@ -123,6 +131,7 @@ h2 {
   cursor: pointer;
   font-family: inherit;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: inline-block;
 }
 
 .btn:hover,
@@ -165,7 +174,7 @@ main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
 }
 
@@ -174,6 +183,10 @@ main {
   border: 1px solid #f1dfcb;
   border-radius: 12px;
   padding: 0.9rem;
+}
+
+.preview-cards .card .btn {
+  margin-top: 0.35rem;
 }
 
 .benefits-list {
@@ -244,12 +257,6 @@ table {
   overflow: hidden;
 }
 
-caption {
-  text-align: left;
-  font-weight: 700;
-  margin-bottom: 0.6rem;
-}
-
 th,
 td {
   padding: 0.75rem;
@@ -266,6 +273,23 @@ th {
   margin-top: -0.3rem;
 }
 
+.faq-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  background: #fff;
+  border: 1px solid #f1dfcb;
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
 .cta-panel {
   background: #2e241e;
   color: #fff;
@@ -275,7 +299,7 @@ th {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.55rem;
-  max-width: 440px;
+  max-width: 460px;
 }
 
 label {
@@ -298,23 +322,48 @@ select {
   color: #ffe3ca;
 }
 
-footer {
-  text-align: center;
+.site-footer {
+  background: #fff;
+  border-top: 1px solid #efdfce;
+  padding: 1.2rem clamp(1rem, 3vw, 3rem) 1.6rem;
   color: var(--muted);
-  padding: 1rem;
 }
 
-footer a {
+.footer-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.footer-title {
+  margin: 0 0 0.2rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer a {
   color: inherit;
+  text-decoration: none;
   font-weight: 700;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .nav {
     justify-content: center;
   }
 
   .nav ul {
+    justify-content: center;
+  }
+
+  .lang-switcher {
+    width: 100%;
     justify-content: center;
   }
 }
