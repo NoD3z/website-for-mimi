@@ -1,6 +1,9 @@
 {
   "meta": {
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 codex/implement-multi-language-support-with-vanilla-js-51z4gq
+main
     "homeTitle": "Little Beans Café Club | Home",
     "activitiesTitle": "Little Beans | Activities",
     "communityTitle": "Little Beans | Community",
@@ -15,11 +18,14 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "faqDescription": "Answers to common questions about age range, safety, booking, and what to bring.",
     "contactTitle": "Contact | Little Beans",
     "contactDescription": "Contact Little Beans and request your preferred family session time."
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 =======
     "homeTitle": "Little Beans Café Club",
     "activitiesTitle": "Little Beans | Activities",
     "communityTitle": "Little Beans | Community"
 main
+ main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -34,14 +40,20 @@ main
     "join": "Join",
     "activities": "Activities",
     "community": "Community",
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 codex/implement-multi-language-support-with-vanilla-js-51z4gq
+ main
     "book": "Book",
     "home": "Home",
     "pricing": "Pricing",
     "faq": "FAQ",
     "contact": "Contact"
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 =======
     "book": "Book"
+main
 main
   },
   "hero": {
@@ -66,14 +78,20 @@ main
     "item2": "✅ Secure sign-in / sign-out for every child",
     "item3": "✅ Quiet zone, social tables, and Wi-Fi for adults",
     "item4": "✅ Inclusive for single parents, couples, carers, and friends",
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 codex/implement-multi-language-support-with-vanilla-js-51z4gq
+main
     "item5": "✅ Affordable sessions with sibling discounts",
     "eyebrow": "Comfort for everyone",
     "pageTitle": "Why families and communities love us",
     "pageText": "Every detail is designed to make afternoons easier, safer, and more welcoming."
+ codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 =======
     "item5": "✅ Affordable sessions with sibling discounts"
 main
+ main
   },
   "planner": {
     "title": "Interactive visit planner",
@@ -139,16 +157,22 @@ main
     "successGeneric": "Thanks! We will email you available slots in the next 24 hours."
   },
   "footer": {
+codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 codex/implement-multi-language-support-with-vanilla-js-51z4gq
+ main
     "home": "Little Beans Café Club • Built for happier afternoons.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Built for happier afternoons with kids.",
     "quickLinks": "Quick links",
     "social": "Social",
     "socialPlaceholder": "Instagram & Facebook coming soon."
+ codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 =======
     "home": "Little Beans Café Club • Built for happier afternoons."
 main
+ main
   },
   "activities": {
     "heroEyebrow": "Play with purpose",
@@ -185,7 +209,10 @@ main
     "quickLinks": "Quick links",
     "tryPlanner": "Try visit planner",
     "bookNow": "Book now"
+ codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+=======
 codex/implement-multi-language-support-with-vanilla-js-51z4gq
+ main
   },
   "home": {
     "heroEyebrow": "A calm afternoon for families",
@@ -250,7 +277,44 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "subtitle": "Send your request — we usually reply within 24 hours.",
     "namePlaceholder": "Your name",
     "emailPlaceholder": "name@email.com"
+ codex/implement-multi-language-support-with-vanilla-js-9vlj4j
+  },
+  "pageInfo": {
+    "home": {
+      "title": "What you will find on this page",
+      "text": "This homepage gives you a quick overview of Little Beans, highlights key benefits, and guides you to flow, pricing, FAQ, and contact pages."
+    },
+    "how": {
+      "title": "What this page explains",
+      "text": "This page walks you through each session step by step, including the daily structure and what both children and adults can expect."
+    },
+    "benefits": {
+      "title": "What this page explains",
+      "text": "This page summarizes the biggest benefits for families: safety, thoughtful care, calm adult spaces, and real community support."
+    },
+    "pricing": {
+      "title": "What this page explains",
+      "text": "Use this page to estimate costs, compare options, and understand which session setup best matches your family needs."
+    },
+    "faq": {
+      "title": "What this page explains",
+      "text": "This page answers common questions about age range, safety, booking, and preparation in a short and clear format."
+    },
+    "contact": {
+      "title": "What this page explains",
+      "text": "This page is for direct booking requests. Share your details and we will reply with suitable time options."
+    },
+    "activities": {
+      "title": "What this page explains",
+      "text": "Here you can explore current activity zones for children and quickly see which options fit different moods and ages."
+    },
+    "community": {
+      "title": "What this page explains",
+      "text": "This page shows upcoming community events and helps you find the most relevant offerings for your family situation."
+    }
+=======
 =======
 main
+ main
   }
 }

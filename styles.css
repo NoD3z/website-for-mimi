@@ -69,7 +69,6 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
   border-bottom: 2px solid var(--brand);
 }
 
-=======
 main
 .lang-switcher {
   display: inline-flex;
@@ -166,6 +165,15 @@ main {
   box-shadow: 0 8px 24px rgba(20, 17, 13, 0.07);
   padding: clamp(1rem, 2.5vw, 2rem);
   margin-bottom: 1.2rem;
+}
+
+.page-summary {
+  border: 1px solid #f2e2d1;
+}
+
+.page-summary p {
+  margin-bottom: 0;
+  max-width: 900px;
 }
 
 .alt {
