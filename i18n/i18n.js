@@ -90,6 +90,10 @@
         const targetAttr = node.dataset.i18nAttr;
         const translated = this.t(key);
 
+        if (translated === key) {
+          return;
+        }
+
         if (targetAttr) {
           node.setAttribute(targetAttr, translated);
           return;

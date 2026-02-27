@@ -1,9 +1,5 @@
 {
   "meta": {
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "homeTitle": "Little Beans Café Club | Главная",
     "activitiesTitle": "Little Beans | Активности",
     "communityTitle": "Little Beans | Сообщество",
@@ -18,14 +14,6 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "faqDescription": "Ответы на частые вопросы о возрасте, безопасности и бронировании.",
     "contactTitle": "Контакты | Little Beans",
     "contactDescription": "Свяжитесь с Little Beans и отправьте запрос на удобное время."
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "homeTitle": "Little Beans Café Club",
-    "activitiesTitle": "Little Beans | Активности",
-    "communityTitle": "Little Beans | Сообщество"
-main
- main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -40,21 +28,11 @@ main
     "join": "Присоединиться",
     "activities": "Активности",
     "community": "Сообщество",
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "book": "Бронь",
     "home": "Главная",
     "pricing": "Цены",
     "faq": "FAQ",
     "contact": "Контакты"
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "book": "Бронь"
-main
- main
   },
   "hero": {
     "eyebrow": "Спокойный день для семей",
@@ -78,20 +56,10 @@ main
     "item2": "✅ Безопасная регистрация прихода и ухода каждого ребёнка",
     "item3": "✅ Тихая зона, общие столы и Wi-Fi для взрослых",
     "item4": "✅ Подходит для одиноких родителей, пар, опекунов и друзей",
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "item5": "✅ Доступные сессии со скидкой для братьев и сестёр",
     "eyebrow": "Комфорт для всех",
     "pageTitle": "Почему нас выбирают семьи и сообщество",
     "pageText": "Каждая деталь продумана для более лёгкого и безопасного дня."
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "item5": "✅ Доступные сессии со скидкой для братьев и сестёр"
-main
- main
   },
   "planner": {
     "title": "Интерактивный планировщик визита",
@@ -157,22 +125,12 @@ main
     "successGeneric": "Спасибо! Мы отправим вам доступные слоты по email в течение 24 часов."
   },
   "footer": {
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "home": "Little Beans Café Club • Для более счастливых дневных часов.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Для более спокойных и радостных дней с детьми.",
     "quickLinks": "Быстрые ссылки",
     "social": "Соцсети",
     "socialPlaceholder": "Instagram и Facebook скоро."
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "home": "Little Beans Café Club • Для более счастливых дневных часов."
-main
- main
   },
   "activities": {
     "heroEyebrow": "Игра с пользой",
@@ -209,10 +167,6 @@ main
     "quickLinks": "Быстрые ссылки",
     "tryPlanner": "Попробовать планировщик визита",
     "bookNow": "Забронировать"
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
   },
   "home": {
     "heroEyebrow": "Спокойный день для семей",
@@ -277,7 +231,6 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "subtitle": "Отправьте запрос — обычно отвечаем в течение 24 часов.",
     "namePlaceholder": "Ваше имя",
     "emailPlaceholder": "name@email.com"
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
   },
   "pageInfo": {
     "home": {
@@ -312,9 +265,5 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
       "title": "Что объясняет эта страница",
       "text": "Эта страница показывает ближайшие события сообщества и помогает найти наиболее полезные форматы для вашей семьи."
     }
-=======
-=======
-main
- main
   }
 }

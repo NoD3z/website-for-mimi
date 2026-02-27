@@ -1,9 +1,5 @@
 {
   "meta": {
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "homeTitle": "Little Beans Café Club | Home",
     "activitiesTitle": "Little Beans | Attività",
     "communityTitle": "Little Beans | Community",
@@ -18,14 +14,6 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "faqDescription": "Risposte rapide su età, sicurezza, prenotazione e preparazione.",
     "contactTitle": "Contatti | Little Beans",
     "contactDescription": "Contatta Little Beans e richiedi la fascia oraria preferita."
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "homeTitle": "Little Beans Café Club",
-    "activitiesTitle": "Little Beans | Attività",
-    "communityTitle": "Little Beans | Community"
-main
-main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -40,21 +28,11 @@ main
     "join": "Iscriviti",
     "activities": "Attività",
     "community": "Community",
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
-main
     "book": "Prenota",
     "home": "Home",
     "pricing": "Prezzi",
     "faq": "FAQ",
     "contact": "Contatti"
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "book": "Prenota"
-main
-main
   },
   "hero": {
     "eyebrow": "Un pomeriggio sereno per le famiglie",
@@ -78,19 +56,10 @@ main
     "item2": "✅ Accesso e uscita sicuri per ogni bambino",
     "item3": "✅ Zona silenziosa, tavoli sociali e Wi-Fi per adulti",
     "item4": "✅ Inclusivo per genitori single, coppie, caregiver e amici",
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-main
     "item5": "✅ Sessioni accessibili con sconto fratelli",
     "eyebrow": "Benessere per tutti",
     "pageTitle": "Perché famiglie e community ci scelgono",
     "pageText": "Ogni dettaglio è pensato per pomeriggi più semplici e sicuri."
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "item5": "✅ Sessioni accessibili con sconto fratelli"
-main
-main
   },
   "planner": {
     "title": "Planner interattivo della visita",
@@ -156,22 +125,12 @@ main
     "successGeneric": "Grazie! Ti invieremo via email gli slot disponibili nelle prossime 24 ore."
   },
   "footer": {
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
     "home": "Little Beans Café Club • Creato per pomeriggi più felici.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Creato per pomeriggi più sereni con i bambini.",
     "quickLinks": "Link rapidi",
     "social": "Social",
     "socialPlaceholder": "Instagram e Facebook in arrivo."
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-=======
-    "home": "Little Beans Café Club • Creato per pomeriggi più felici."
-main
- main
   },
   "activities": {
     "heroEyebrow": "Giocare con uno scopo",
@@ -208,10 +167,6 @@ main
     "quickLinks": "Link rapidi",
     "tryPlanner": "Prova il planner visita",
     "bookNow": "Prenota ora"
- codex/implement-multi-language-support-with-vanilla-js-9vlj4j
-=======
-codex/implement-multi-language-support-with-vanilla-js-51z4gq
- main
   },
   "home": {
     "heroEyebrow": "Un pomeriggio sereno per le famiglie",
@@ -276,7 +231,6 @@ codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "subtitle": "Invia la tua richiesta: rispondiamo di solito entro 24 ore.",
     "namePlaceholder": "Il tuo nome",
     "emailPlaceholder": "nome@email.it"
-codex/implement-multi-language-support-with-vanilla-js-9vlj4j
   },
   "pageInfo": {
     "home": {
@@ -311,9 +265,5 @@ codex/implement-multi-language-support-with-vanilla-js-9vlj4j
       "title": "Cosa spiega questa pagina",
       "text": "Questa pagina mostra i prossimi eventi della community e ti aiuta a trovare le iniziative più utili per la tua famiglia."
     }
-=======
-=======
-main
- main
   }
 }
