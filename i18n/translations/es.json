@@ -1,5 +1,6 @@
 {
   "meta": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "homeTitle": "Little Beans Café Club | Inicio",
     "activitiesTitle": "Little Beans | Actividades",
     "communityTitle": "Little Beans | Comunidad",
@@ -14,6 +15,11 @@
     "faqDescription": "Respuestas rápidas sobre edades, seguridad, reservas y preparación.",
     "contactTitle": "Contacto | Little Beans",
     "contactDescription": "Contacta con Little Beans y solicita tu horario preferido."
+=======
+    "homeTitle": "Little Beans Café Club",
+    "activitiesTitle": "Little Beans | Actividades",
+    "communityTitle": "Little Beans | Comunidad"
+main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -28,11 +34,15 @@
     "join": "Unirse",
     "activities": "Actividades",
     "community": "Comunidad",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "book": "Reservar",
     "home": "Inicio",
     "pricing": "Precios",
     "faq": "FAQ",
     "contact": "Contacto"
+=======
+    "book": "Reservar"
+main
   },
   "hero": {
     "eyebrow": "Una tarde tranquila para familias",
@@ -56,10 +66,14 @@
     "item2": "✅ Registro de entrada y salida seguro para cada niño",
     "item3": "✅ Zona tranquila, mesas sociales y Wi-Fi para adultos",
     "item4": "✅ Inclusivo para familias monoparentales, parejas, cuidadores y amistades",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "item5": "✅ Sesiones asequibles con descuento para hermanos",
     "eyebrow": "Bienestar para todos",
     "pageTitle": "Por qué familias y comunidad nos eligen",
     "pageText": "Cada detalle está pensado para tardes más fáciles, seguras y acogedoras."
+=======
+    "item5": "✅ Sesiones asequibles con descuento para hermanos"
+main
   },
   "planner": {
     "title": "Planificador interactivo de visita",
@@ -125,12 +139,16 @@
     "successGeneric": "¡Gracias! Te enviaremos por correo los horarios disponibles en las próximas 24 horas."
   },
   "footer": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "home": "Little Beans Café Club • Creado para tardes más felices.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Creado para tardes más felices con peques.",
     "quickLinks": "Enlaces rápidos",
     "social": "Social",
     "socialPlaceholder": "Instagram y Facebook próximamente."
+=======
+    "home": "Little Beans Café Club • Creado para tardes más felices."
+main
   },
   "activities": {
     "heroEyebrow": "Jugar con propósito",
@@ -167,6 +185,7 @@
     "quickLinks": "Enlaces rápidos",
     "tryPlanner": "Probar planificador de visita",
     "bookNow": "Reservar ahora"
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
   },
   "home": {
     "heroEyebrow": "Una tarde tranquila para familias",
@@ -231,5 +250,7 @@
     "subtitle": "Envíanos tu solicitud: solemos responder en 24 horas.",
     "namePlaceholder": "Tu nombre",
     "emailPlaceholder": "nombre@email.com"
+=======
+main
   }
 }

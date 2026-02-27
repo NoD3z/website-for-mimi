@@ -1,5 +1,6 @@
 {
   "meta": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "homeTitle": "Little Beans Café Club | Главная",
     "activitiesTitle": "Little Beans | Активности",
     "communityTitle": "Little Beans | Сообщество",
@@ -14,6 +15,11 @@
     "faqDescription": "Ответы на частые вопросы о возрасте, безопасности и бронировании.",
     "contactTitle": "Контакты | Little Beans",
     "contactDescription": "Свяжитесь с Little Beans и отправьте запрос на удобное время."
+=======
+    "homeTitle": "Little Beans Café Club",
+    "activitiesTitle": "Little Beans | Активности",
+    "communityTitle": "Little Beans | Сообщество"
+main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -28,11 +34,15 @@
     "join": "Присоединиться",
     "activities": "Активности",
     "community": "Сообщество",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "book": "Бронь",
     "home": "Главная",
     "pricing": "Цены",
     "faq": "FAQ",
     "contact": "Контакты"
+=======
+    "book": "Бронь"
+main
   },
   "hero": {
     "eyebrow": "Спокойный день для семей",
@@ -56,10 +66,14 @@
     "item2": "✅ Безопасная регистрация прихода и ухода каждого ребёнка",
     "item3": "✅ Тихая зона, общие столы и Wi-Fi для взрослых",
     "item4": "✅ Подходит для одиноких родителей, пар, опекунов и друзей",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "item5": "✅ Доступные сессии со скидкой для братьев и сестёр",
     "eyebrow": "Комфорт для всех",
     "pageTitle": "Почему нас выбирают семьи и сообщество",
     "pageText": "Каждая деталь продумана для более лёгкого и безопасного дня."
+=======
+    "item5": "✅ Доступные сессии со скидкой для братьев и сестёр"
+main
   },
   "planner": {
     "title": "Интерактивный планировщик визита",
@@ -125,12 +139,16 @@
     "successGeneric": "Спасибо! Мы отправим вам доступные слоты по email в течение 24 часов."
   },
   "footer": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "home": "Little Beans Café Club • Для более счастливых дневных часов.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Для более спокойных и радостных дней с детьми.",
     "quickLinks": "Быстрые ссылки",
     "social": "Соцсети",
     "socialPlaceholder": "Instagram и Facebook скоро."
+=======
+    "home": "Little Beans Café Club • Для более счастливых дневных часов."
+main
   },
   "activities": {
     "heroEyebrow": "Игра с пользой",
@@ -167,6 +185,7 @@
     "quickLinks": "Быстрые ссылки",
     "tryPlanner": "Попробовать планировщик визита",
     "bookNow": "Забронировать"
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
   },
   "home": {
     "heroEyebrow": "Спокойный день для семей",
@@ -231,5 +250,7 @@
     "subtitle": "Отправьте запрос — обычно отвечаем в течение 24 часов.",
     "namePlaceholder": "Ваше имя",
     "emailPlaceholder": "name@email.com"
+=======
+main
   }
 }

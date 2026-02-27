@@ -1,5 +1,6 @@
 {
   "meta": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "homeTitle": "Little Beans Café Club | Home",
     "activitiesTitle": "Little Beans | Activities",
     "communityTitle": "Little Beans | Community",
@@ -14,6 +15,11 @@
     "faqDescription": "Answers to common questions about age range, safety, booking, and what to bring.",
     "contactTitle": "Contact | Little Beans",
     "contactDescription": "Contact Little Beans and request your preferred family session time."
+=======
+    "homeTitle": "Little Beans Café Club",
+    "activitiesTitle": "Little Beans | Activities",
+    "communityTitle": "Little Beans | Community"
+main
   },
   "common": {
     "logo": "☕ Little Beans",
@@ -28,11 +34,15 @@
     "join": "Join",
     "activities": "Activities",
     "community": "Community",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "book": "Book",
     "home": "Home",
     "pricing": "Pricing",
     "faq": "FAQ",
     "contact": "Contact"
+=======
+    "book": "Book"
+main
   },
   "hero": {
     "eyebrow": "A calm afternoon for families",
@@ -56,10 +66,14 @@
     "item2": "✅ Secure sign-in / sign-out for every child",
     "item3": "✅ Quiet zone, social tables, and Wi-Fi for adults",
     "item4": "✅ Inclusive for single parents, couples, carers, and friends",
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "item5": "✅ Affordable sessions with sibling discounts",
     "eyebrow": "Comfort for everyone",
     "pageTitle": "Why families and communities love us",
     "pageText": "Every detail is designed to make afternoons easier, safer, and more welcoming."
+=======
+    "item5": "✅ Affordable sessions with sibling discounts"
+main
   },
   "planner": {
     "title": "Interactive visit planner",
@@ -125,12 +139,16 @@
     "successGeneric": "Thanks! We will email you available slots in the next 24 hours."
   },
   "footer": {
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
     "home": "Little Beans Café Club • Built for happier afternoons.",
     "brandTitle": "Little Beans Café Club",
     "tagline": "Built for happier afternoons with kids.",
     "quickLinks": "Quick links",
     "social": "Social",
     "socialPlaceholder": "Instagram & Facebook coming soon."
+=======
+    "home": "Little Beans Café Club • Built for happier afternoons."
+main
   },
   "activities": {
     "heroEyebrow": "Play with purpose",
@@ -167,6 +185,7 @@
     "quickLinks": "Quick links",
     "tryPlanner": "Try visit planner",
     "bookNow": "Book now"
+codex/implement-multi-language-support-with-vanilla-js-51z4gq
   },
   "home": {
     "heroEyebrow": "A calm afternoon for families",
@@ -231,5 +250,7 @@
     "subtitle": "Send your request — we usually reply within 24 hours.",
     "namePlaceholder": "Your name",
     "emailPlaceholder": "name@email.com"
+=======
+main
   }
 }
