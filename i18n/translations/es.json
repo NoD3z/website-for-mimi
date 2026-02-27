@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "homeTitle": "Little Beans Café Club",
+    "activitiesTitle": "Little Beans | Actividades",
+    "communityTitle": "Little Beans | Comunidad"
+  },
+  "common": {
+    "logo": "☕ Little Beans",
+    "mainNavigation": "Navegación principal",
+    "languageLabel": "Idioma",
+    "backToHome": "← Volver al inicio"
+  },
+  "nav": {
+    "howItWorks": "Cómo funciona",
+    "benefits": "Beneficios",
+    "planner": "Planificador",
+    "join": "Unirse",
+    "activities": "Actividades",
+    "community": "Comunidad",
+    "book": "Reservar"
+  },
+  "hero": {
+    "eyebrow": "Una tarde tranquila para familias",
+    "title": "Un encuentro acogedor en cafetería para madres, padres, cuidadores y amantes del café.",
+    "description": "Trae a niños menores de 8 años para una sesión segura de cuidado por la tarde mientras los adultos se relajan, conectan y disfrutan de buen café.",
+    "bookSpot": "Reservar plaza",
+    "planVisit": "Planificar visita"
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "step1Title": "1) Registro juntos",
+    "step1Text": "Las familias llegan entre la 1:30 y las 2:00 p. m. y conocen al equipo de cuidado infantil.",
+    "step2Title": "2) Los peques disfrutan del juego guiado",
+    "step2Text": "Los niños participan en actividades por edades, cuentos y rincones tranquilos para descansar.",
+    "step3Title": "3) Los adultos recargan energía",
+    "step3Text": "Madres, padres y otros adultos pueden trabajar, charlar o simplemente disfrutar un café en calma."
+  },
+  "benefits": {
+    "title": "Por qué a las familias y comunidades les encanta",
+    "item1": "✅ Personal amable con formación en primera infancia",
+    "item2": "✅ Registro de entrada y salida seguro para cada niño",
+    "item3": "✅ Zona tranquila, mesas sociales y Wi-Fi para adultos",
+    "item4": "✅ Inclusivo para familias monoparentales, parejas, cuidadores y amistades",
+    "item5": "✅ Sesiones asequibles con descuento para hermanos"
+  },
+  "planner": {
+    "title": "Planificador interactivo de visita",
+    "subtitle": "Calcula el precio de tu sesión y elige el ambiente que quieres para la tarde.",
+    "childrenLabel": "Número de niños",
+    "hoursLabel": "Horas de cuidado",
+    "hoursValue": "{hours} horas",
+    "vibeLabel": "Espacio preferido para adultos",
+    "vibeSocial": "Mesa social",
+    "vibeQuiet": "Zona tranquila de trabajo",
+    "vibeCoaching": "Mini círculo de apoyo para madres y padres",
+    "estimatedTotal": "Total estimado",
+    "vibeOutput": "Probablemente te gustará: {vibe}"
+  },
+  "schedule": {
+    "title": "Sesión de la tarde",
+    "subtitle": "Diseñado para niños de 2 a 8 años.",
+    "caption": "Plan típico de un día laborable",
+    "time": "Hora",
+    "kidsActivities": "Actividades infantiles",
+    "adultsSpace": "Espacio para adultos",
+    "row1Time": "1:30 p. m.",
+    "row1Kids": "Llegada y juego de bienvenida",
+    "row1Adults": "Registro y primer café",
+    "row2Time": "2:00 p. m.",
+    "row2Kids": "Manualidades creativas y juegos grupales",
+    "row2Adults": "Círculo de encuentro para padres / asientos libres",
+    "row3Time": "3:00 p. m.",
+    "row3Kids": "Hora del cuento y merienda",
+    "row3Adults": "Tiempo de enfoque o charla social",
+    "row4Time": "4:15 p. m.",
+    "row4Kids": "Actividades calmadas y preparación de entrega",
+    "row4Adults": "Recogida y consejos para casa"
+  },
+  "testimonials": {
+    "title": "Voces de madres y padres",
+    "button": "Mostrar otra historia",
+    "items": [
+      {
+        "quote": "“Por fin terminé un café caliente mientras mi peque tuvo la mejor tarde.”",
+        "author": "— Sam, madre/padre de 1"
+      },
+      {
+        "quote": "“La zona tranquila me ayudó a adelantar trabajo sin sentir culpa.”",
+        "author": "— Alex, cuidador/a de 2"
+      },
+      {
+        "quote": "“Mi hija pidió volver antes incluso de llegar a casa.”",
+        "author": "— Priya, madre/padre de 1"
+      }
+    ]
+  },
+  "join": {
+    "title": "Menos estrés. Más café. Más conexión.",
+    "description": "Reserva tu lugar para la próxima semana y descubre una mejor rutina de tarde para tu familia.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "kids": "¿Cuántos niños (menores de 8)?",
+    "select": "Seleccionar",
+    "threeOrMore": "3 o más",
+    "requestBooking": "Solicitar reserva",
+    "successWithName": "¡Gracias, {name}! Te enviaremos por correo los horarios disponibles en las próximas 24 horas.",
+    "successGeneric": "¡Gracias! Te enviaremos por correo los horarios disponibles en las próximas 24 horas."
+  },
+  "footer": {
+    "home": "Little Beans Café Club • Creado para tardes más felices."
+  },
+  "activities": {
+    "heroEyebrow": "Jugar con propósito",
+    "heroTitle": "Menú diario de actividades para edades de 2 a 8",
+    "heroDescription": "Cada sesión combina movimiento, creatividad y momentos de calma para que cada niño se sienta cómodo.",
+    "zonesTitle": "Zonas de actividad de hoy",
+    "craftTitle": "🎨 Rincón de manualidades",
+    "craftText": "Proyectos de arte sensorial sencillos con materiales lavables y apoyo guiado.",
+    "storyTitle": "📚 Nido de cuentos",
+    "storyText": "Sesiones interactivas de lectura en voz alta con marionetas y propuestas de imaginación.",
+    "buildersTitle": "🧩 Pequeños constructores",
+    "buildersText": "Juegos de resolución de problemas, bloques y mini retos colaborativos.",
+    "helpTitle": "¿Necesitas ayuda para elegir?",
+    "helpText": "Nuestro equipo ayudará a tu hijo/a a adaptarse y elegir actividades según su estado de ánimo y energía.",
+    "reserve": "Reservar una sesión"
+  },
+  "community": {
+    "heroEyebrow": "No estás criando en soledad",
+    "heroTitle": "Tablón comunitario y eventos",
+    "heroDescription": "Mira lo que viene y conecta con otras familias locales en un entorno cálido y acogedor.",
+    "eventsTitle": "Próximos mini eventos",
+    "date": "Fecha",
+    "event": "Evento",
+    "helps": "A quién ayuda",
+    "row1Date": "Mar",
+    "row1Event": "Círculo de café para madres y padres recientes",
+    "row1Helps": "Madres y padres con niños menores de 3",
+    "row2Date": "Jue",
+    "row2Event": "Sesión tranquila después del cole",
+    "row2Helps": "Familias que equilibran trabajo y recogida escolar",
+    "row3Date": "Vie",
+    "row3Event": "Encuentro de apoyo para cuidadores",
+    "row3Helps": "Abuelos y cuidadores",
+    "quickLinks": "Enlaces rápidos",
+    "tryPlanner": "Probar planificador de visita",
+    "bookNow": "Reservar ahora"
+  }
+}

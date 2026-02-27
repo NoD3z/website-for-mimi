@@ -12,20 +12,33 @@ const quoteButton = document.querySelector('#new-quote');
 const joinForm = document.querySelector('#join-form');
 const formMessage = document.querySelector('#form-message');
 
-const testimonials = [
-  {
-    quote: '“I finally finished a hot coffee while my toddler had the best afternoon.”',
-    author: '— Sam, parent of 1'
-  },
-  {
-    quote: '“The quiet zone helped me catch up on work without feeling guilty.”',
-    author: '— Alex, caregiver of 2'
-  },
-  {
-    quote: '“My daughter asked to come back before we even got home.”',
-    author: '— Priya, parent of 1'
+let currentQuoteIndex = 0;
+
+function t(key, values = {}) {
+  if (window.i18n && typeof window.i18n.t === 'function') {
+    return window.i18n.t(key, values);
   }
-];
+
+  return key;
+}
+
+function getTestimonials() {
+  const language = window.i18n ? window.i18n.language : 'en';
+  const dictionary = window.i18n && window.i18n.dictionaries ? window.i18n.dictionaries[language] : null;
+  const fallbackDictionary = window.i18n && window.i18n.dictionaries ? window.i18n.dictionaries.en : null;
+
+  const localized = dictionary && dictionary.testimonials && Array.isArray(dictionary.testimonials.items)
+    ? dictionary.testimonials.items
+    : null;
+
+  if (localized && localized.length) {
+    return localized;
+  }
+
+  return fallbackDictionary && fallbackDictionary.testimonials && Array.isArray(fallbackDictionary.testimonials.items)
+    ? fallbackDictionary.testimonials.items
+    : [];
+}
 
 function updatePlanner() {
   if (!plannerKids || !plannerHours || !plannerVibe) {
@@ -38,9 +51,28 @@ function updatePlanner() {
   const siblingDiscount = kids > 1 ? (kids - 1) * 2 : 0;
   const total = Math.max(kids * hours * basePrice - siblingDiscount, 18);
 
-  hoursOutput.textContent = `${hours} hours`;
+  hoursOutput.textContent = t('planner.hoursValue', { hours });
   priceOutput.textContent = `$${total.toFixed(2)}`;
-  vibeOutput.textContent = `You'll probably enjoy: ${plannerVibe.options[plannerVibe.selectedIndex].text}`;
+  vibeOutput.textContent = t('planner.vibeOutput', {
+    vibe: plannerVibe.options[plannerVibe.selectedIndex].text
+  });
+}
+
+function updateQuoteDisplay() {
+  if (!quoteText || !quoteAuthor) {
+    return;
+  }
+
+  const testimonials = getTestimonials();
+  if (!testimonials.length) {
+    return;
+  }
+
+  const safeIndex = Math.min(currentQuoteIndex, testimonials.length - 1);
+  const current = testimonials[safeIndex];
+
+  quoteText.textContent = current.quote;
+  quoteAuthor.textContent = current.author;
 }
 
 if (plannerKids && plannerHours && plannerVibe) {
@@ -52,13 +84,21 @@ if (plannerKids && plannerHours && plannerVibe) {
 
 if (quoteButton) {
   quoteButton.addEventListener('click', () => {
-    const currentQuote = quoteText.textContent;
-    const options = testimonials.filter((item) => item.quote !== currentQuote);
-    const next = options[Math.floor(Math.random() * options.length)];
+    const testimonials = getTestimonials();
 
-    quoteText.textContent = next.quote;
-    quoteAuthor.textContent = next.author;
+    if (!testimonials.length) {
+      return;
+    }
+
+    const choices = testimonials
+      .map((_, index) => index)
+      .filter((index) => index !== currentQuoteIndex);
+
+    currentQuoteIndex = choices[Math.floor(Math.random() * choices.length)] ?? currentQuoteIndex;
+    updateQuoteDisplay();
   });
+
+  updateQuoteDisplay();
 }
 
 if (joinForm && formMessage) {
@@ -67,9 +107,15 @@ if (joinForm && formMessage) {
     const name = document.querySelector('#name').value.trim();
 
     formMessage.textContent = name
-      ? `Thanks ${name}! We will email you available slots in the next 24 hours.`
-      : 'Thanks! We will email you available slots in the next 24 hours.';
+      ? t('join.successWithName', { name })
+      : t('join.successGeneric');
 
     joinForm.reset();
+    updatePlanner();
   });
 }
+
+document.addEventListener('i18n:updated', () => {
+  updatePlanner();
+  updateQuoteDisplay();
+});

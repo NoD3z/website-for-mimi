@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Little Beans Café Club</title>
+  <title data-i18n="meta.homeTitle">Little Beans Café Club</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -12,175 +12,186 @@
 
 <body>
   <header class="hero" id="top">
-    <nav class="nav" aria-label="Main navigation">
-      <a class="logo" href="#top">☕ Little Beans</a>
+    <nav class="nav" aria-label="Hauptnavigation" data-i18n="common.mainNavigation" data-i18n-attr="aria-label">
+      <a class="logo" href="#top" data-i18n="common.logo">☕ Little Beans</a>
       <ul>
-        <li><a href="#how-it-works">How it works</a></li>
-        <li><a href="#benefits">Benefits</a></li>
-        <li><a href="#planner">Planner</a></li>
-        <li><a href="#join">Join</a></li>
-        <li><a href="activities.html">Activities</a></li>
-        <li><a href="community.html">Community</a></li>
+        <li><a href="#how-it-works" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+        <li><a href="#benefits" data-i18n="nav.benefits">Vorteile</a></li>
+        <li><a href="#planner" data-i18n="nav.planner">Planer</a></li>
+        <li><a href="#join" data-i18n="nav.join">Anmelden</a></li>
+        <li><a href="activities.html" data-i18n="nav.activities">Aktivitäten</a></li>
+        <li><a href="community.html" data-i18n="nav.community">Community</a></li>
       </ul>
+      <div class="lang-switcher">
+        <label for="language-switcher" data-i18n="common.languageLabel">Sprache</label>
+        <select id="language-switcher" data-language-switcher>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+        </select>
+      </div>
     </nav>
 
     <div class="hero-content">
-      <span class="eyebrow">A calm afternoon for families</span>
-      <h1>A welcoming café meetup for parents, carers, and coffee lovers.</h1>
-      <p>
-        Bring kids under 8 for a safe afternoon daycare session while adults relax,
-        connect, and enjoy great coffee with less stress.
+      <span class="eyebrow" data-i18n="hero.eyebrow">Ein ruhiger Nachmittag für Familien</span>
+      <h1 data-i18n="hero.title">Ein einladendes Café-Treffen für Eltern, Betreuungspersonen und Kaffeefans.</h1>
+      <p data-i18n="hero.description">
+        Bringen Sie Kinder unter 8 Jahren zu einer sicheren Nachmittagsbetreuung, während Erwachsene entspannen,
+        sich austauschen und guten Kaffee genießen.
       </p>
 
       <div class="cta-group">
-        <a class="btn primary" href="#join">Book a spot</a>
-        <a class="btn ghost" href="#planner">Plan your visit</a>
+        <a class="btn primary" href="#join" data-i18n="hero.bookSpot">Platz buchen</a>
+        <a class="btn ghost" href="#planner" data-i18n="hero.planVisit">Besuch planen</a>
       </div>
     </div>
   </header>
 
   <main>
     <section class="panel" id="how-it-works">
-      <h2>How it works</h2>
+      <h2 data-i18n="howItWorks.title">So funktioniert's</h2>
 
       <div class="cards">
         <div class="card">
-          <h3>1) Check in together</h3>
-          <p>Families arrive between 1:30–2:00 PM and meet the childcare team.</p>
+          <h3 data-i18n="howItWorks.step1Title">1) Gemeinsam einchecken</h3>
+          <p data-i18n="howItWorks.step1Text">Familien kommen zwischen 13:30 und 14:00 Uhr an und lernen das Betreuungsteam kennen.</p>
         </div>
 
         <div class="card">
-          <h3>2) Kids enjoy play-based care</h3>
-          <p>Children join age-appropriate activities, stories, and quiet nap corners.</p>
+          <h3 data-i18n="howItWorks.step2Title">2) Kinder erleben spielerische Betreuung</h3>
+          <p data-i18n="howItWorks.step2Text">Kinder nehmen an altersgerechten Aktivitäten, Geschichten und ruhigen Schlafbereichen teil.</p>
         </div>
 
         <div class="card">
-          <h3>3) Adults recharge</h3>
-          <p>Parents and other adults can work, chat, or simply enjoy a peaceful coffee break.</p>
+          <h3 data-i18n="howItWorks.step3Title">3) Erwachsene tanken auf</h3>
+          <p data-i18n="howItWorks.step3Text">Eltern und andere Erwachsene können arbeiten, plaudern oder einfach eine entspannte Kaffeepause genießen.</p>
         </div>
       </div>
     </section>
 
     <section class="panel alt" id="benefits">
-      <h2>Why families and communities love it</h2>
+      <h2 data-i18n="benefits.title">Warum Familien und Communities es lieben</h2>
       <ul class="benefits-list">
-        <li>✅ Friendly staff trained in early childhood support</li>
-        <li>✅ Secure sign-in / sign-out for every child</li>
-        <li>✅ Quiet zone, social tables, and Wi-Fi for adults</li>
-        <li>✅ Inclusive for single parents, couples, carers, and friends</li>
-        <li>✅ Affordable sessions with sibling discounts</li>
+        <li data-i18n="benefits.item1">✅ Freundliches Team mit frühpädagogischer Erfahrung</li>
+        <li data-i18n="benefits.item2">✅ Sicheres Ein- und Auschecken für jedes Kind</li>
+        <li data-i18n="benefits.item3">✅ Ruhezone, soziale Tische und WLAN für Erwachsene</li>
+        <li data-i18n="benefits.item4">✅ Offen für Alleinerziehende, Paare, Betreuungspersonen und Freunde</li>
+        <li data-i18n="benefits.item5">✅ Bezahlbare Sessions mit Geschwisterrabatt</li>
       </ul>
     </section>
 
     <section class="panel" id="planner" aria-labelledby="planner-title">
-      <h2 id="planner-title">Interactive visit planner</h2>
-      <p class="schedule-sub">Estimate your session price and pick the vibe you want for your afternoon.</p>
+      <h2 id="planner-title" data-i18n="planner.title">Interaktiver Besuchsplaner</h2>
+      <p class="schedule-sub" data-i18n="planner.subtitle">Schätzen Sie den Preis Ihrer Session und wählen Sie die passende Atmosphäre für Ihren Nachmittag.</p>
 
       <form class="planner-grid" id="planner-form">
         <div>
-          <label for="plan-kids">Number of children</label>
+          <label for="plan-kids" data-i18n="planner.childrenLabel">Anzahl der Kinder</label>
           <input id="plan-kids" type="number" min="1" max="5" value="1" />
         </div>
 
         <div>
-          <label for="plan-hours">Hours of care</label>
+          <label for="plan-hours" data-i18n="planner.hoursLabel">Betreuungsstunden</label>
           <input id="plan-hours" type="range" min="2" max="4" step="0.5" value="2.5" />
-          <p class="hint" id="hours-output">2.5 hours</p>
+          <p class="hint" id="hours-output">2.5 Stunden</p>
         </div>
 
         <div>
-          <label for="plan-vibe">Preferred adult space</label>
+          <label for="plan-vibe" data-i18n="planner.vibeLabel">Bevorzugter Bereich für Erwachsene</label>
           <select id="plan-vibe">
-            <option value="social">Social table</option>
-            <option value="quiet">Quiet work zone</option>
-            <option value="coaching">Parent support mini-circle</option>
+            <option value="social" data-i18n="planner.vibeSocial">Sozialer Tisch</option>
+            <option value="quiet" data-i18n="planner.vibeQuiet">Ruhige Arbeitszone</option>
+            <option value="coaching" data-i18n="planner.vibeCoaching">Mini-Runde zur Elternunterstützung</option>
           </select>
         </div>
       </form>
 
       <div class="price-box" aria-live="polite">
-        <p class="price-label">Estimated total</p>
+        <p class="price-label" data-i18n="planner.estimatedTotal">Geschätzte Gesamtsumme</p>
         <p class="price-value" id="price-output">$32.50</p>
-        <p class="hint" id="vibe-output">You'll probably enjoy: Social table</p>
+        <p class="hint" id="vibe-output">Wahrscheinlich passt zu Ihnen: Sozialer Tisch</p>
       </div>
     </section>
 
     <section class="panel" id="schedule">
-      <h2>Afternoon session</h2>
-      <p class="schedule-sub">Designed for children aged 2–8 years.</p>
+      <h2 data-i18n="schedule.title">Nachmittagssession</h2>
+      <p class="schedule-sub" data-i18n="schedule.subtitle">Für Kinder von 2 bis 8 Jahren konzipiert.</p>
 
       <table>
-        <caption>Typical weekday plan</caption>
+        <caption data-i18n="schedule.caption">Typischer Werktagsplan</caption>
         <thead>
           <tr>
-            <th>Time</th>
-            <th>Kids’ activities</th>
-            <th>Adults’ space</th>
+            <th data-i18n="schedule.time">Zeit</th>
+            <th data-i18n="schedule.kidsActivities">Aktivitäten für Kinder</th>
+            <th data-i18n="schedule.adultsSpace">Bereich für Erwachsene</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1:30 PM</td>
-            <td>Arrival and welcome play</td>
-            <td>Check-in and first coffee</td>
+            <td data-i18n="schedule.row1Time">13:30 Uhr</td>
+            <td data-i18n="schedule.row1Kids">Ankommen und Begrüßungsspiel</td>
+            <td data-i18n="schedule.row1Adults">Check-in und erster Kaffee</td>
           </tr>
           <tr>
-            <td>2:00 PM</td>
-            <td>Creative crafts and group games</td>
-            <td>Parent meetup circle / free seating</td>
+            <td data-i18n="schedule.row2Time">14:00 Uhr</td>
+            <td data-i18n="schedule.row2Kids">Kreatives Basteln und Gruppenspiele</td>
+            <td data-i18n="schedule.row2Adults">Elternrunde / freie Sitzplätze</td>
           </tr>
           <tr>
-            <td>3:00 PM</td>
-            <td>Story time and snack break</td>
-            <td>Focus time or social catch-up</td>
+            <td data-i18n="schedule.row3Time">15:00 Uhr</td>
+            <td data-i18n="schedule.row3Kids">Geschichtenzeit und Snackpause</td>
+            <td data-i18n="schedule.row3Adults">Fokuszeit oder Austausch</td>
           </tr>
           <tr>
-            <td>4:15 PM</td>
-            <td>Calm activities and handover prep</td>
-            <td>Pickup and take-home tips</td>
+            <td data-i18n="schedule.row4Time">16:15 Uhr</td>
+            <td data-i18n="schedule.row4Kids">Ruhige Aktivitäten und Übergabevorbereitung</td>
+            <td data-i18n="schedule.row4Adults">Abholung und Tipps für zu Hause</td>
           </tr>
         </tbody>
       </table>
     </section>
 
     <section class="panel alt" id="testimonials">
-      <h2>Parent voices</h2>
+      <h2 data-i18n="testimonials.title">Stimmen von Eltern</h2>
       <div class="quote-box" aria-live="polite">
-        <p id="quote-text">“I finally finished a hot coffee while my toddler had the best afternoon.”</p>
-        <p id="quote-author">— Sam, parent of 1</p>
+        <p id="quote-text">„Ich konnte endlich einen heißen Kaffee austrinken, während mein Kleinkind den besten Nachmittag hatte.“</p>
+        <p id="quote-author">— Sam, Elternteil von 1 Kind</p>
       </div>
-      <button class="btn ghost" id="new-quote" type="button">Show another story</button>
+      <button class="btn ghost" id="new-quote" type="button" data-i18n="testimonials.button">Weitere Geschichte zeigen</button>
     </section>
 
     <section class="panel cta-panel" id="join">
-      <h2>Less stress. More coffee. More connection.</h2>
-      <p>Reserve your place for next week and discover a better afternoon routine for your family.</p>
+      <h2 data-i18n="join.title">Weniger Stress. Mehr Kaffee. Mehr Verbindung.</h2>
+      <p data-i18n="join.description">Reservieren Sie Ihren Platz für nächste Woche und entdecken Sie eine bessere Nachmittagsroutine für Ihre Familie.</p>
 
       <form class="join-form" id="join-form">
-        <label for="name">Name</label>
+        <label for="name" data-i18n="join.name">Name</label>
         <input id="name" name="name" type="text" autocomplete="name" required />
 
-        <label for="email">Email</label>
+        <label for="email" data-i18n="join.email">E-Mail</label>
         <input id="email" name="email" type="email" autocomplete="email" required />
 
-        <label for="kids">How many kids (under 8)?</label>
+        <label for="kids" data-i18n="join.kids">Wie viele Kinder (unter 8)?</label>
         <select id="kids" name="kids" required>
-          <option value="" selected>Select</option>
+          <option value="" selected data-i18n="join.select">Auswählen</option>
           <option>1</option>
           <option>2</option>
-          <option>3 or more</option>
+          <option data-i18n="join.threeOrMore">3 oder mehr</option>
         </select>
 
-        <button class="btn primary" type="submit">Request booking</button>
+        <button class="btn primary" type="submit" data-i18n="join.requestBooking">Buchung anfragen</button>
       </form>
       <p class="success-message" id="form-message" aria-live="polite"></p>
     </section>
   </main>
 
-  <footer>
-    Little Beans Café Club • Built for happier afternoons.
+  <footer data-i18n="footer.home">
+    Little Beans Café Club • Für entspanntere Nachmittage gemacht.
   </footer>
 
+  <script src="i18n/i18n.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
