@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.faqTitle">FAQ | Little Beans</title>
+  <meta name="description" content="Antworten auf häufige Fragen zu Alter, Sicherheit, Ablauf, Buchung und Vorbereitung bei Little Beans." data-i18n="meta.faqDescription" data-i18n-attr="content" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero sub-hero">
+    <nav class="nav" aria-label="Hauptnavigation" data-i18n="common.mainNavigation" data-i18n-attr="aria-label">
+      <a class="logo" href="index.html" data-i18n="common.logo">☕ Little Beans</a>
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+        <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+        <li><a href="benefits.html" data-i18n="nav.benefits">Vorteile</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Preise</a></li>
+        <li><a class="active" aria-current="page" href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <label for="language-switcher" data-i18n="common.languageLabel">Sprache</label>
+        <select id="language-switcher" data-language-switcher>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+        </select>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <span class="eyebrow" data-i18n="faq.eyebrow">Fragen? Gerne.</span>
+      <h1 data-i18n="faq.title">Häufige Fragen</h1>
+      <p data-i18n="faq.subtitle">Hier finden Sie schnelle Antworten zu Ablauf, Sicherheit und Buchung.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel page-summary">
+      <h2 data-i18n="pageInfo.faq.title">Was diese Seite erklärt</h2>
+      <p data-i18n="pageInfo.faq.text">Auf dieser Seite beantworten wir die häufigsten Fragen zu Alter, Sicherheit, Buchung und Vorbereitung – kurz, verständlich und direkt.</p>
+    </section>
+
+    <section class="panel faq-list">
+      <article class="faq-item">
+        <h3 data-i18n="faq.q1">Für welches Alter ist das Angebot gedacht?</h3>
+        <p data-i18n="faq.a1">Unsere Sessions sind für Kinder von 2 bis 8 Jahren konzipiert.</p>
+      </article>
+      <article class="faq-item">
+        <h3 data-i18n="faq.q2">Wie läuft die Sicherheit beim Bringen und Abholen?</h3>
+        <p data-i18n="faq.a2">Jedes Kind wird mit sicherem Check-in und Check-out dokumentiert. Nur autorisierte Personen dürfen abholen.</p>
+      </article>
+      <article class="faq-item">
+        <h3 data-i18n="faq.q3">Kann ich spontan buchen?</h3>
+        <p data-i18n="faq.a3">Ja, sofern Plätze verfügbar sind. Für feste Routinen empfehlen wir frühzeitige Reservierung.</p>
+      </article>
+      <article class="faq-item">
+        <h3 data-i18n="faq.q4">Was soll ich meinem Kind mitgeben?</h3>
+        <p data-i18n="faq.a4">Bitte bringen Sie bei Bedarf Wechselkleidung, Trinkflasche und wichtige Hinweise (Allergien, Schlafrhythmus) mit.</p>
+      </article>
+    </section>
+
+    <section class="panel alt">
+      <h2 data-i18n="faq.moreTitle">Noch eine Frage offen?</h2>
+      <p data-i18n="faq.moreText">Schreiben Sie uns – wir antworten freundlich und schnell.</p>
+      <a class="btn primary" href="contact.html" data-i18n="faq.cta">Zum Kontaktformular</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-title" data-i18n="footer.brandTitle">Little Beans Café Club</p>
+        <p data-i18n="footer.tagline">Für entspanntere Nachmittage mit Kindern.</p>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.quickLinks">Schnelllinks</p>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+          <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+          <li><a href="pricing.html" data-i18n="nav.pricing">Preise</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.social">Social</p>
+        <p data-i18n="footer.socialPlaceholder">Instagram & Facebook folgen bald.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n/i18n.js"></script>
+</body>
+</html>
