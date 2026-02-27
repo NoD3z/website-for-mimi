@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.pricingTitle">Preise | Little Beans</title>
+  <meta name="description" content="Transparente Preise für familienfreundliche Nachmittagsbetreuung inklusive interaktivem Kostenplaner." data-i18n="meta.pricingDescription" data-i18n-attr="content" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero sub-hero">
+    <nav class="nav" aria-label="Hauptnavigation" data-i18n="common.mainNavigation" data-i18n-attr="aria-label">
+      <a class="logo" href="index.html" data-i18n="common.logo">☕ Little Beans</a>
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+        <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+        <li><a href="benefits.html" data-i18n="nav.benefits">Vorteile</a></li>
+        <li><a class="active" aria-current="page" href="pricing.html" data-i18n="nav.pricing">Preise</a></li>
+        <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <label for="language-switcher" data-i18n="common.languageLabel">Sprache</label>
+        <select id="language-switcher" data-language-switcher>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+        </select>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <span class="eyebrow" data-i18n="pricing.eyebrow">Transparent & familienfreundlich</span>
+      <h1 data-i18n="pricing.title">Preise und interaktiver Besuchsplaner</h1>
+      <p data-i18n="pricing.subtitle">Schätzen Sie Ihre Session direkt online und passen Sie sie flexibel an Ihre Familie an.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <form class="planner-grid" id="planner-form">
+        <div>
+          <label for="plan-kids" data-i18n="planner.childrenLabel">Anzahl der Kinder</label>
+          <input id="plan-kids" type="number" min="1" max="5" value="1" />
+        </div>
+
+        <div>
+          <label for="plan-hours" data-i18n="planner.hoursLabel">Betreuungsstunden</label>
+          <input id="plan-hours" type="range" min="2" max="4" step="0.5" value="2.5" />
+          <p class="hint" id="hours-output">2.5 Stunden</p>
+        </div>
+
+        <div>
+          <label for="plan-vibe" data-i18n="planner.vibeLabel">Bevorzugter Bereich für Erwachsene</label>
+          <select id="plan-vibe">
+            <option value="social" data-i18n="planner.vibeSocial">Sozialer Tisch</option>
+            <option value="quiet" data-i18n="planner.vibeQuiet">Ruhige Arbeitszone</option>
+            <option value="coaching" data-i18n="planner.vibeCoaching">Mini-Runde zur Elternunterstützung</option>
+          </select>
+        </div>
+      </form>
+
+      <div class="price-box" aria-live="polite">
+        <p class="price-label" data-i18n="planner.estimatedTotal">Geschätzte Gesamtsumme</p>
+        <p class="price-value" id="price-output">$32.50</p>
+        <p class="hint" id="vibe-output">Wahrscheinlich passt zu Ihnen: Sozialer Tisch</p>
+      </div>
+    </section>
+
+    <section class="panel alt">
+      <h2 data-i18n="pricing.noteTitle">Hinweis zu Ermäßigungen</h2>
+      <p data-i18n="pricing.noteText">Bei mehreren Kindern berücksichtigen wir automatisch Geschwisterrabatte. Für regelmäßige Besuche sprechen Sie uns gerne auf Monatsoptionen an.</p>
+      <a class="btn primary" href="contact.html" data-i18n="pricing.cta">Beratung anfragen</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-title" data-i18n="footer.brandTitle">Little Beans Café Club</p>
+        <p data-i18n="footer.tagline">Für entspanntere Nachmittage mit Kindern.</p>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.quickLinks">Schnelllinks</p>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+          <li><a href="how-it-works.html" data-i18n="nav.howItWorks">So funktioniert's</a></li>
+          <li><a href="benefits.html" data-i18n="nav.benefits">Vorteile</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title" data-i18n="footer.social">Social</p>
+        <p data-i18n="footer.socialPlaceholder">Instagram & Facebook folgen bald.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n/i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

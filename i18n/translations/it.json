@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "homeTitle": "Little Beans Café Club | Home",
+    "activitiesTitle": "Little Beans | Attività",
+    "communityTitle": "Little Beans | Community",
+    "homeDescription": "Benvenuti al Little Beans Café Club: pomeriggi sereni per famiglie con supporto bambini e tempo di qualità per gli adulti.",
+    "howTitle": "Come funziona | Little Beans",
+    "howDescription": "Scopri passo dopo passo come si svolge un pomeriggio Little Beans.",
+    "benefitsTitle": "Vantaggi | Little Beans",
+    "benefitsDescription": "Perché le famiglie scelgono Little Beans: sicurezza, accoglienza e inclusione.",
+    "pricingTitle": "Prezzi | Little Beans",
+    "pricingDescription": "Prezzi chiari con planner interattivo per stimare il costo della sessione.",
+    "faqTitle": "FAQ | Little Beans",
+    "faqDescription": "Risposte rapide su età, sicurezza, prenotazione e preparazione.",
+    "contactTitle": "Contatti | Little Beans",
+    "contactDescription": "Contatta Little Beans e richiedi la fascia oraria preferita."
+  },
+  "common": {
+    "logo": "☕ Little Beans",
+    "mainNavigation": "Navigazione principale",
+    "languageLabel": "Lingua",
+    "backToHome": "← Torna alla home"
+  },
+  "nav": {
+    "howItWorks": "Come funziona",
+    "benefits": "Vantaggi",
+    "planner": "Planner",
+    "join": "Iscriviti",
+    "activities": "Attività",
+    "community": "Community",
+    "book": "Prenota",
+    "home": "Home",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "eyebrow": "Un pomeriggio sereno per le famiglie",
+    "title": "Un incontro in caffetteria accogliente per genitori, caregiver e amanti del caffè.",
+    "description": "Porta bambini sotto gli 8 anni per un pomeriggio sicuro di assistenza, mentre gli adulti si rilassano, socializzano e gustano un ottimo caffè.",
+    "bookSpot": "Prenota un posto",
+    "planVisit": "Pianifica la visita"
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "step1Title": "1) Check-in insieme",
+    "step1Text": "Le famiglie arrivano tra le 13:30 e le 14:00 e incontrano il team educativo.",
+    "step2Title": "2) I bimbi giocano in sicurezza",
+    "step2Text": "I bambini partecipano ad attività adatte all'età, storie e angoli riposo tranquilli.",
+    "step3Title": "3) Gli adulti si ricaricano",
+    "step3Text": "Genitori e altri adulti possono lavorare, chiacchierare o semplicemente godersi una pausa caffè."
+  },
+  "benefits": {
+    "title": "Perché famiglie e comunità lo amano",
+    "item1": "✅ Staff cordiale formato nel supporto alla prima infanzia",
+    "item2": "✅ Accesso e uscita sicuri per ogni bambino",
+    "item3": "✅ Zona silenziosa, tavoli sociali e Wi-Fi per adulti",
+    "item4": "✅ Inclusivo per genitori single, coppie, caregiver e amici",
+    "item5": "✅ Sessioni accessibili con sconto fratelli",
+    "eyebrow": "Benessere per tutti",
+    "pageTitle": "Perché famiglie e community ci scelgono",
+    "pageText": "Ogni dettaglio è pensato per pomeriggi più semplici e sicuri."
+  },
+  "planner": {
+    "title": "Planner interattivo della visita",
+    "subtitle": "Stima il prezzo della sessione e scegli l'atmosfera che preferisci per il pomeriggio.",
+    "childrenLabel": "Numero di bambini",
+    "hoursLabel": "Ore di assistenza",
+    "hoursValue": "{hours} ore",
+    "vibeLabel": "Spazio adulti preferito",
+    "vibeSocial": "Tavolo sociale",
+    "vibeQuiet": "Zona lavoro silenziosa",
+    "vibeCoaching": "Mini-cerchio di supporto genitori",
+    "estimatedTotal": "Totale stimato",
+    "vibeOutput": "Probabilmente ti piacerà: {vibe}"
+  },
+  "schedule": {
+    "title": "Sessione pomeridiana",
+    "subtitle": "Pensata per bambini da 2 a 8 anni.",
+    "caption": "Programma tipico nei giorni feriali",
+    "time": "Orario",
+    "kidsActivities": "Attività bambini",
+    "adultsSpace": "Spazio adulti",
+    "row1Time": "13:30",
+    "row1Kids": "Arrivo e gioco di benvenuto",
+    "row1Adults": "Check-in e primo caffè",
+    "row2Time": "14:00",
+    "row2Kids": "Laboratori creativi e giochi di gruppo",
+    "row2Adults": "Cerchio genitori / posti liberi",
+    "row3Time": "15:00",
+    "row3Kids": "Lettura e pausa snack",
+    "row3Adults": "Tempo di concentrazione o socialità",
+    "row4Time": "16:15",
+    "row4Kids": "Attività calme e preparazione alla consegna",
+    "row4Adults": "Ritiro e consigli da portare a casa"
+  },
+  "testimonials": {
+    "title": "Voci dei genitori",
+    "button": "Mostra un'altra storia",
+    "items": [
+      {
+        "quote": "“Finalmente ho finito un caffè caldo mentre il mio bimbo si divertiva tantissimo.”",
+        "author": "— Sam, genitore di 1 bambino"
+      },
+      {
+        "quote": "“La zona silenziosa mi ha permesso di recuperare lavoro senza sensi di colpa.”",
+        "author": "— Alex, caregiver di 2 bambini"
+      },
+      {
+        "quote": "“Mia figlia ha chiesto di tornare prima ancora di arrivare a casa.”",
+        "author": "— Priya, genitore di 1 bambino"
+      }
+    ]
+  },
+  "join": {
+    "title": "Meno stress. Più caffè. Più connessione.",
+    "description": "Prenota il tuo posto per la prossima settimana e scopri una routine pomeridiana migliore per la tua famiglia.",
+    "name": "Nome",
+    "email": "Email",
+    "kids": "Quanti bambini (sotto gli 8 anni)?",
+    "select": "Seleziona",
+    "threeOrMore": "3 o più",
+    "requestBooking": "Richiedi prenotazione",
+    "successWithName": "Grazie {name}! Ti invieremo via email gli slot disponibili nelle prossime 24 ore.",
+    "successGeneric": "Grazie! Ti invieremo via email gli slot disponibili nelle prossime 24 ore."
+  },
+  "footer": {
+    "home": "Little Beans Café Club • Creato per pomeriggi più felici.",
+    "brandTitle": "Little Beans Café Club",
+    "tagline": "Creato per pomeriggi più sereni con i bambini.",
+    "quickLinks": "Link rapidi",
+    "social": "Social",
+    "socialPlaceholder": "Instagram e Facebook in arrivo."
+  },
+  "activities": {
+    "heroEyebrow": "Giocare con uno scopo",
+    "heroTitle": "Menu attività giornaliero per 2–8 anni",
+    "heroDescription": "Ogni sessione unisce movimento, creatività e momenti di calma, così ogni bambino si sente a suo agio.",
+    "zonesTitle": "Zone attività di oggi",
+    "craftTitle": "🎨 Angolo creativo",
+    "craftText": "Progetti artistici sensoriali semplici con materiali lavabili e supporto guidato.",
+    "storyTitle": "📚 Nido delle storie",
+    "storyText": "Letture interattive ad alta voce con pupazzi e stimoli alla fantasia.",
+    "buildersTitle": "🧩 Piccoli costruttori",
+    "buildersText": "Giochi di problem solving, blocchi e mini sfide collaborative.",
+    "helpTitle": "Hai bisogno di aiuto per scegliere?",
+    "helpText": "Il nostro staff aiuterà tuo figlio ad ambientarsi e a scegliere attività in base a umore ed energia.",
+    "reserve": "Prenota una sessione"
+  },
+  "community": {
+    "heroEyebrow": "Non stai crescendo i figli da solo",
+    "heroTitle": "Bacheca community ed eventi",
+    "heroDescription": "Scopri cosa c'è in programma e connettiti con altre famiglie locali in un ambiente caldo e accogliente.",
+    "eventsTitle": "Mini eventi in arrivo",
+    "date": "Data",
+    "event": "Evento",
+    "helps": "A chi aiuta",
+    "row1Date": "Mar",
+    "row1Event": "Coffee Circle per neo-genitori",
+    "row1Helps": "Genitori con bambini sotto i 3 anni",
+    "row2Date": "Gio",
+    "row2Event": "Sessione tranquilla dopo scuola",
+    "row2Helps": "Famiglie tra lavoro e uscita da scuola",
+    "row3Date": "Ven",
+    "row3Event": "Incontro di supporto caregiver",
+    "row3Helps": "Nonni e caregiver",
+    "quickLinks": "Link rapidi",
+    "tryPlanner": "Prova il planner visita",
+    "bookNow": "Prenota ora"
+  },
+  "home": {
+    "heroEyebrow": "Un pomeriggio sereno per le famiglie",
+    "heroTitle": "Meno caos. Più connessione. Un pomeriggio in caffetteria adatto a tutti.",
+    "heroText": "Little Beans unisce cura attenta per bimbi sotto gli 8 anni e uno spazio accogliente per genitori e caregiver.",
+    "primaryCta": "Richiedi un posto",
+    "secondaryCta": "Scopri come funziona",
+    "welcomeTitle": "Felici di averti qui 👋",
+    "welcomeText": "Che tu voglia rilassarti, lavorare con calma o conoscere altre famiglie, rendiamo il pomeriggio semplice e sicuro.",
+    "previewTitle": "Cosa ottieni con noi",
+    "previewSubtitle": "Panoramica rapida: apri ogni pagina per i dettagli.",
+    "previewHowTitle": "Come funziona",
+    "previewHowText": "Dal check-in al ritiro: passaggi chiari e comunicazione gentile.",
+    "previewHowLink": "Vai al flusso",
+    "previewBenefitsTitle": "Vantaggi",
+    "previewBenefitsText": "Perché famiglie e bambini si sentono accolti da Little Beans.",
+    "previewBenefitsLink": "Vedi vantaggi",
+    "previewPricingTitle": "Prezzi e planner",
+    "previewPricingText": "Stima il costo in pochi secondi e scegli la formula più adatta.",
+    "previewPricingLink": "Vedi prezzi"
+  },
+  "how": {
+    "eyebrow": "Flusso chiaro, famiglie più serene",
+    "title": "Come funziona il tuo pomeriggio Little Beans",
+    "subtitle": "Semplice, trasparente e umano.",
+    "scheduleTitle": "Programma tipico",
+    "cta": "Richiedi una sessione",
+    "step1Title": "1) Check-in insieme",
+    "step1Text": "Le famiglie arrivano tra le 13:30 e le 14:00 e incontrano il team educativo.",
+    "step2Title": "2) I bimbi giocano in sicurezza",
+    "step2Text": "I bambini partecipano ad attività adatte all'età, storie e angoli riposo tranquilli.",
+    "step3Title": "3) Gli adulti si ricaricano",
+    "step3Text": "Genitori e altri adulti possono lavorare, chiacchierare o semplicemente godersi una pausa caffè."
+  },
+  "pricing": {
+    "eyebrow": "Chiaro e family-friendly",
+    "title": "Prezzi e planner interattivo",
+    "subtitle": "Stima online la sessione e personalizzala per la tua famiglia.",
+    "noteTitle": "Nota sconti",
+    "noteText": "Gli sconti fratelli sono applicati automaticamente. Chiedici le opzioni mensili.",
+    "cta": "Richiedi consulenza"
+  },
+  "faq": {
+    "eyebrow": "Domande? Volentieri.",
+    "title": "Domande frequenti",
+    "subtitle": "Risposte rapide su routine, sicurezza e prenotazioni.",
+    "q1": "Per quale età è pensato il servizio?",
+    "a1": "Le sessioni sono pensate per bambini da 2 a 8 anni.",
+    "q2": "Come funziona la sicurezza in entrata e uscita?",
+    "a2": "Ogni bambino ha check-in e check-out sicuri. Il ritiro è consentito solo ad adulti autorizzati.",
+    "q3": "Posso prenotare all’ultimo minuto?",
+    "a3": "Sì, se ci sono posti. Per routine fisse consigliamo di prenotare prima.",
+    "q4": "Cosa deve portare mio figlio?",
+    "a4": "Se serve, porta cambio, borraccia e note importanti (allergie, sonno).",
+    "moreTitle": "Hai ancora una domanda?",
+    "moreText": "Scrivici: rispondiamo in modo rapido e cordiale.",
+    "cta": "Apri modulo contatti"
+  },
+  "contact": {
+    "eyebrow": "Non vediamo l’ora di conoscervi",
+    "title": "Contatti e richiesta prenotazione",
+    "subtitle": "Invia la tua richiesta: rispondiamo di solito entro 24 ore.",
+    "namePlaceholder": "Il tuo nome",
+    "emailPlaceholder": "nome@email.it"
+  }
+}
